@@ -108,6 +108,7 @@ export default defineConfig({
             { text: 'GB 7718 预包装食品标签通则', link: '/standards/gb7718-food-label' },
             { text: '标签要变什么 · 新旧对比预告', link: '/standards/gb28050-2025-preview' },
             { text: 'GB 7718 新旧对比预告', link: '/standards/gb7718-2025-preview' },
+            { text: '营养标签 2027 新版 · 消费者问答精选', link: '/standards/gb28050-qa-detail' },
           ],
         },
       ],
