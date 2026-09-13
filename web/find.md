@@ -8,6 +8,7 @@ import { ref, computed } from 'vue'
 import { withBase } from 'vitepress'
 
 const q = ref('')
+const tier = ref('全部')
 const docs = ref([])
 const loaded = ref(false)
 const err = ref('')
@@ -31,6 +32,7 @@ const results = computed(() => {
   if (t.length < 2) return []
   const out = []
   for (const d of docs.value) {
+    if (tier.value !== '全部' && d.source_tier !== tier.value) continue
     const i = d.body.indexOf(t)
     if (i === -1 && !d.title.includes(t) && !d.description.includes(t) && !d.tags.some((x) => x.includes(t))) continue
     const at = d.body.indexOf(t)
@@ -60,6 +62,15 @@ const results = computed(() => {
     placeholder="试试：限盐、嘌呤、保质期、血糖……（至少 2 个字）"
     style="width:100%;padding:.6rem .9rem;font-size:1.05rem;border:1px solid var(--vp-c-divider);border-radius:8px;background:var(--vp-c-bg);color:var(--vp-c-text-1)"
   />
+  <p style="display:flex;gap:.5rem;flex-wrap:wrap;margin:.6rem 0">
+    <button v-for="t in ['全部', '一级来源', '二级来源']" :key="t" @click="tier = t"
+      :style="{
+        padding:'.25rem .8rem', borderRadius:'999px', cursor:'pointer', fontSize:'.9rem',
+        border: tier === t ? '1px solid var(--vp-c-brand-1)' : '1px solid var(--vp-c-divider)',
+        background: tier === t ? 'var(--vp-c-brand-soft)' : 'var(--vp-c-bg)',
+        color: 'var(--vp-c-text-1)'
+      }">{{ t }}</button>
+  </p>
   <p v-if="err" style="color:var(--vp-c-danger)">{{ err }}</p>
   <p v-else-if="!loaded">语料加载中……</p>
   <p v-else-if="q.trim().length < 2">输入关键词开始检索（≥2 个字）。</p>
