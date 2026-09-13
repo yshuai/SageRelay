@@ -36,6 +36,7 @@ export default defineConfig({
       { text: '权威数据', link: '/data/chronic-disease-report-2020' },
       { text: '国标科普', link: '/standards/gb28050-nutrition-label' },
       { text: '检索', link: '/find' },
+      { text: '家庭管家', link: '/assist' },
       { text: '项目文档', link: '/project/' },
       { text: '关于本站', link: '/about' },
     ],
