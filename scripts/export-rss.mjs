@@ -1,5 +1,5 @@
 // RSS 订阅源：从语料生成 rss.xml，随站点发布。
-import { writeFileSync } from 'node:fs'
+import { readFileSync, writeFileSync } from 'node:fs'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
