@@ -33,6 +33,7 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '食养指南', link: '/guides/hypertension-2023' },
       { text: '权威数据', link: '/data/chronic-disease-report-2020' },
+      { text: '国标科普', link: '/standards/gb28050-nutrition-label' },
       { text: '项目文档', link: '/project/' },
       { text: '关于本站', link: '/about' },
     ],
@@ -88,6 +89,14 @@ export default defineConfig({
           items: [
             { text: '营养与慢性病状况报告（2020）核心数据', link: '/data/chronic-disease-report-2020' },
             { text: '中国人群身体活动指南（2021）推荐量', link: '/data/physical-activity-2021' },
+          ],
+        },
+      ],
+      '/standards/': [
+        {
+          text: '国标科普（试点）',
+          items: [
+            { text: 'GB 28050 预包装食品营养标签通则', link: '/standards/gb28050-nutrition-label' },
           ],
         },
       ],
