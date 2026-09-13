@@ -15,6 +15,7 @@ titleTemplate: false
 | --- | --- | --- |
 | [GB 28050 预包装食品营养标签通则](/standards/gb28050-nutrition-label) | GB 28050—2011（新版 2025 已发布，2027 实施） | 现行 |
 | [GB 7718 预包装食品标签通则](/standards/gb7718-food-label) | GB 7718—2011（新版 2025 已发布，2027 实施） | 现行 |
+| [标签要变什么 · 新旧对比预告](/standards/gb28050-2025-preview) | GB 28050—2011 → 2025 | 预告 |
 
 ## 权威数据页
 
