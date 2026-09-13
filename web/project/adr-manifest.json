@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "0001-mvp-scope",
+    "title": "首期范围：只做食养指南域，砍除软件推荐与各地常见病"
+  },
+  {
+    "slug": "0002-source-whitelist",
+    "title": "两级来源白名单与不背书红线"
+  },
+  {
+    "slug": "0003-static-docs-site",
+    "title": "Git + Markdown 静态文档站，不用托管知识库平台与数据库"
+  },
+  {
+    "slug": "0004-ai-layer-deferred",
+    "title": "AI 问答层缓行，二期只做\"文献检索助手\""
+  },
+  {
+    "slug": "0005-open-corpus",
+    "title": "语料库公开开源：透明即信任"
+  },
+  {
+    "slug": "0006-single-end-website-only",
+    "title": "仅网站单端：放弃小程序选项"
+  },
+  {
+    "slug": "0007-third-tier-sources",
+    "title": "来源白名单增设第三级：权威医疗机构与认证医生"
+  },
+  {
+    "slug": "0008-name-yizhichun",
+    "title": "定名「一枝春」：以「聊赠一枝春」承载借花献佛的项目本质"
+  },
+  {
+    "slug": "0009-rename-sagerelay",
+    "title": "改名「建议驿站」（SageRelay）：官方文书的接力驿站"
+  },
+  {
+    "slug": "0010-actionable-excerpts",
+    "title": "行动清单：可执行内容以逐条溯源为前提"
+  }
+]

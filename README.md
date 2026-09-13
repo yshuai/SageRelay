@@ -19,20 +19,34 @@ npm run preview  # 本地预览构建产物
 ```
 ├── CONTEXT.md              # 术语表（领域语言，非规格文档）
 ├── docs/adr/               # 架构与边界决策记录
-├── .github/workflows/deploy.yml  # 推送 main 自动部署 GitHub Pages
+├── .github/workflows/deploy.yml  # 手动触发的 Pages 备用部署
+├── scripts/sync-docs.mjs   # 把术语表+ADR 同步进站点 /project/ 栏目
 ├── package.json
 └── web/                    # VitePress 站点
     ├── .vitepress/config.mts
     ├── index.md            # 首页
     ├── about.md            # 关于本站（收录标准/免责声明/授权）
+    ├── project/            # 项目文档栏目（构建时自动同步，勿手改）
     └── guides/             # 词条（19 篇：chinanutri 技术指南栏目全量收录）
 ```
 
 ## 部署
 
 - 线上地址：**https://yshuai.github.io/SageRelay/**
-- 当前方式：`web/.vitepress/dist` 以 `VP_BASE=/SageRelay/` 构建后，整目录推送到 `gh-pages` 分支（含 `.nojekyll`），Pages 源 = gh-pages 分支（legacy 构建）。更新词条后重新执行同样的构建与分支推送即可。
-- 备用方式：仓库内 Actions 工作流（`gh workflow run deploy.yml --manual`）已保留，但当前仅限手动触发——近期该账号的 Actions runner 长时间不接活，故切换为分支直发。想切回 Actions 部署：Settings → Pages → Source 选 **GitHub Actions**，并把工作流 trigger 恢复为 `push: branches: [main]`。
+- 当前方式：`web/.vitepress/dist` 以子路径 base 构建后，整目录推送到 `gh-pages` 分支（含 `.nojekyll`），Pages 源 = gh-pages 分支（legacy 构建）。更新词条后重复执行即可：
+
+  ```bash
+  # Git Bash 会把 VP_BASE=/SageRelay/ 的值自动转换成 Windows 盘符路径（MSYS path
+  # conversion），导致线上链接全部变成 file:// 盘符路径，必须带排除参数！
+  MSYS_NO_PATHCONV=1 MSYS2_ENV_CONV_EXCL="VP_BASE" VP_BASE=/SageRelay/ npm run build
+  # 自查：以下命令应输出 0
+  grep -r "C:/Users" web/.vitepress/dist/ | wc -l
+  # 然后推送 dist 到 gh-pages 分支，并 gh api -X POST repos/yshuai/SageRelay/pages/builds
+  ```
+
+  `config.mts` 内另有盘符路径防御（识别到 `C:/` 开头的 base 自动回退正确值），双保险。
+- 项目文档（术语表 + ADR）由 `scripts/sync-docs.mjs` 在每次 dev/build 前自动同步进站点 `/project/` 栏目，源文件永远以仓库根部为准。
+- 备用方式：仓库内 Actions 工作流已保留（仅手动触发）——近期该账号的 Actions runner 长时间不接活，故切换为分支直发。想切回 Actions 部署：Settings → Pages → Source 选 **GitHub Actions**，并把工作流 trigger 恢复为 `push: branches: [main]`。
 
 ## 词条规范
 

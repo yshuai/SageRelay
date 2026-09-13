@@ -1,7 +1,17 @@
 import { defineConfig } from 'vitepress'
+import { readFileSync } from 'node:fs'
+
+// Git Bash 会把 VP_BASE=/SageRelay/ 环境变量值转换成 Windows 盘符路径（MSYS path
+// conversion），此处识别并回退到本仓库的正确子路径，防污染。
+const rawBase = process.env.VP_BASE
+const base = !rawBase || /^[A-Za-z]:[\\/]/.test(rawBase) ? '/SageRelay/' : rawBase
+
+const adrManifest = JSON.parse(
+  readFileSync(new URL('../project/adr-manifest.json', import.meta.url), 'utf-8'),
+)
 
 export default defineConfig({
-  base: process.env.VP_BASE || '/',
+  base,
   lang: 'zh-CN',
   title: '建议驿站',
   titleTemplate: ':title | 建议驿站 SageRelay',
@@ -22,11 +32,11 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '食养指南', link: '/guides/hypertension-2023' },
+      { text: '项目文档', link: '/project/' },
       { text: '关于本站', link: '/about' },
     ],
     sidebar: {
-      '/guides/': [
-        {
+      '/guides/': [        {
           text: '总纲',
           items: [
             { text: '中国居民膳食指南（2022）', link: '/guides/dietary-guidelines-2022' },
@@ -68,6 +78,15 @@ export default defineConfig({
             { text: '营养健康食堂建设指南', link: '/guides/canteen-guide-2020' },
             { text: '营养健康餐厅建设指南', link: '/guides/restaurant-guide-2020' },
             { text: '营养指导员服务技术指南（试行）', link: '/guides/nutrition-instructor-2026' },
+          ],
+        },
+      ],
+      '/project/': [
+        {
+          text: '项目文档',
+          items: [
+            { text: '术语表（CONTEXT）', link: '/project/CONTEXT' },
+            ...adrManifest.map((m) => ({ text: m.title, link: '/project/adr/' + m.slug })),
           ],
         },
       ],

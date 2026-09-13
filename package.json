@@ -4,7 +4,9 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
+    "predev": "node scripts/sync-docs.mjs",
     "dev": "vitepress dev web",
+    "prebuild": "node scripts/sync-docs.mjs",
     "build": "vitepress build web",
     "preview": "vitepress preview web"
   },
