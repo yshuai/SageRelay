@@ -38,5 +38,13 @@
   {
     "slug": "0010-actionable-excerpts",
     "title": "行动清单：可执行内容以逐条溯源为前提"
+  },
+  {
+    "slug": "0011-data-pages",
+    "title": "扩域：引入\"数据页\"，首批收录慢性病状况报告与身体活动指南"
+  },
+  {
+    "slug": "0012-ai-agent-roadmap",
+    "title": "AI Agent 三层路线：从文献检索助手到家庭管家的合规路径"
   }
 ]

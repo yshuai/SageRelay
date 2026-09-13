@@ -32,6 +32,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '食养指南', link: '/guides/hypertension-2023' },
+      { text: '权威数据', link: '/data/chronic-disease-report-2020' },
       { text: '项目文档', link: '/project/' },
       { text: '关于本站', link: '/about' },
     ],
@@ -78,6 +79,15 @@ export default defineConfig({
             { text: '营养健康食堂建设指南', link: '/guides/canteen-guide-2020' },
             { text: '营养健康餐厅建设指南', link: '/guides/restaurant-guide-2020' },
             { text: '营养指导员服务技术指南（试行）', link: '/guides/nutrition-instructor-2026' },
+          ],
+        },
+      ],
+      '/data/': [
+        {
+          text: '权威数据',
+          items: [
+            { text: '营养与慢性病状况报告（2020）核心数据', link: '/data/chronic-disease-report-2020' },
+            { text: '中国人群身体活动指南（2021）推荐量', link: '/data/physical-activity-2021' },
           ],
         },
       ],
