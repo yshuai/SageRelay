@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as r,ag as o}from"./chunks/framework.Aev9KvMf.js";const p=JSON.parse('{"title":"关于建议驿站","description":"","frontmatter":{},"headers":[],"relativePath":"about.md","filePath":"about.md"}'),l={name:"about.md"};function d(i,t,n,s,h,u){return e(),r("div",null,[...t[0]||(t[0]=[o("",14)])])}const _=a(l,[["render",d]]);export{p as __pageData,_ as default};
