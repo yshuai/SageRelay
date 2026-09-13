@@ -107,6 +107,15 @@ const skills = [
 | <span>{{ skills[1].t }}</span> | <a :href="skills[1].l">GB 7718 食品标签</a> |
 | <span>{{ skills[2].t }}</span> | <a :href="skills[2].l">GB 7718 食品标签</a> |
 
+## 第三步 · 查一查（防坑验证）
+
+| 场景 | 官方查询 |
+| --- | --- |
+| 买了化妆品 / 护肤品 | [化妆品备案/注册查询](/query/cosmetics) |
+| 拿到不熟悉的药品 | [药品批准文号查询](/query/drug) |
+| 新去看的医院或"专家" | [医疗机构与执业医师查询](/query/hospital-doctor) |
+| 给老人买保健品 | [保健食品注册备案查询（蓝帽子）](/query/health-food) |
+
 ::: tip 数据背景
 为什么这些数字值得认真对待：[慢性病报告核心数据](/data/chronic-disease-report-2020)——每 3 个成人约 1 个高血压，每 2 个成人约 1 个体重超标。
 :::
