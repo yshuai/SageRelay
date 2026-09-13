@@ -1,0 +1,14 @@
+{
+  "name": "sagerelay",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev web",
+    "build": "vitepress build web",
+    "preview": "vitepress preview web"
+  },
+  "devDependencies": {
+    "vitepress": "^1.5.0"
+  }
+}
