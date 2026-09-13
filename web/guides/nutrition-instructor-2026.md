@@ -4,7 +4,6 @@ issuer: 国家卫生健康委办公厅
 source_tier: 一级来源
 version: 试行
 published: 2026-06
-document_no: null
 source_url: https://www.chinanutri.cn/fgbz/fgbzjszn/202606/t20260625_1837449.html
 status: 现行
 tags: [营养指导员, 膳食服务, 营养干预]
@@ -40,4 +39,3 @@ description: 国家卫健委《营养指导员服务技术指南（试行）》�
 | 发布机构 | 国家卫生健康委办公厅 |
 | 版本 | 试行（现行） |
 | 发布时间 | 2026 年 6 月（栏目发布 2026-06-25） |
-| 发文字号 | 待核对（见原文） |

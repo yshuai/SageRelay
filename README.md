@@ -58,10 +58,11 @@ npm run preview  # 本地预览构建产物
 | `source_tier` | 来源级别（一级/二级/三级，见 ADR 0002、0007） |
 | `version` | 版本（如 2023年版） |
 | `published` | 印发/发布年月 |
-| `document_no` | 发文字号（核对原文后填，禁止凭记忆编造） |
-| `source_url` | 原文链接 |
+| `source_url` | 原文链接（通知页/官方 PDF） |
 | `status` | `现行` / `已废止（被XX年版替代）` |
 | `reviewed` | `false` = AI 初稿未人工校验；`true` = 已逐条对照原文校验 |
+
+**出处标注规范**（ADR 0010）：行动清单/速览卡每条建议的"出处"是可点击链接，直达官方 PDF 托管镜像（`web/public/guides-pdf/`）的对应页（`#page=N`，页码由 PyMuPDF 提取时计算）。不使用发文字号——原文页自带，本站不转述用户无法核验的字段。
 
 **编辑纪律**（见 ADR 0004、0006）：
 

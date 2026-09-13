@@ -4,7 +4,6 @@ issuer: 国家卫生健康委办公厅
 source_tier: 一级来源
 version: 2020年印发
 published: 2020-12
-document_no: null
 source_url: https://www.chinanutri.cn/fgbz/fgbzjszn/202012/t20201214_223265.html
 status: 现行
 tags: [营养标识, 外卖, 餐饮, 点餐]
@@ -41,4 +40,3 @@ description: 国家卫健委《餐饮食品营养标识指南》要点导读：�
 | 发布机构 | 国家卫生健康委办公厅 |
 | 版本 | 2020 年印发（现行） |
 | 发布时间 | 2020 年 12 月 |
-| 发文字号 | 待核对（见原文） |

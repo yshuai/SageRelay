@@ -4,7 +4,6 @@ issuer: 国家卫生健康委办公厅
 source_tier: 一级来源
 version: 2026年版
 published: 2026-04
-document_no: 国卫办食品函〔2026〕114号
 source_url: https://www.nhc.gov.cn/sps/c100087/202604/a69d2fce21e040dc96cbc40b923a06d3.shtml
 status: 现行
 tags: [脑卒中, 食养, 饮食指导]
@@ -41,4 +40,3 @@ description: 国家卫健委《成人脑卒中食养指南（2026年版）》要
 | 发布机构 | 国家卫生健康委办公厅 |
 | 版本 | 2026 年版（现行） |
 | 印发时间 | 2026 年 4 月（具体日期待核对原文） |
-| 发文字号 | 国卫办食品函〔2026〕114号（待人工复核） |

@@ -4,7 +4,6 @@ issuer: 国家卫生健康委办公厅
 source_tier: 一级来源
 version: 2026年版
 published: 2026-04
-document_no: 国卫办食品函〔2026〕114号
 source_url: https://www.chinanutri.cn/fgbz/fgbzjszn/202605/t20260526_1836069.html
 status: 现行
 tags: [骨质疏松, 骨骼健康, 食养, 饮食指导]
@@ -43,4 +42,3 @@ description: 国家卫健委《成人骨质疏松症食养指南（2026年版）
 | 发布机构 | 国家卫生健康委办公厅 |
 | 版本 | 2026 年版（现行） |
 | 印发时间 | 2026 年 4 月（栏目发布 2026-05-26） |
-| 发文字号 | 国卫办食品函〔2026〕114号（待人工复核） |

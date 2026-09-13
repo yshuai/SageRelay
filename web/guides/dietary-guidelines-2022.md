@@ -4,7 +4,6 @@ issuer: 中国营养学会
 source_tier: 二级来源
 version: 2022
 published: 2022-04
-document_no: null
 source_url: http://dg.cnsoc.org/
 status: 现行
 tags: [膳食指南, 营养, 健康饮食]

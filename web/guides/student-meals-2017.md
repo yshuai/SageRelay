@@ -4,7 +4,6 @@ issuer: 国家卫生计生委（原）
 source_tier: 一级来源
 version: WS/T 554—2017
 published: 2017-08
-document_no: WS/T 554—2017
 source_url: https://www.chinanutri.cn/fgbz/fgbzjszn/202103/t20210304_224458.html
 status: 现行
 tags: [学生餐, 中小学, 营养, 校园餐饮]

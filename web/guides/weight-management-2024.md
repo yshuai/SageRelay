@@ -4,7 +4,6 @@ issuer: 国家卫生健康委办公厅
 source_tier: 一级来源
 version: 2024年版
 published: 2024-12
-document_no: null
 source_url: https://www.nhc.gov.cn/ylyjs/zcwj/202412/75cb79c171c94def9e768193e65484f7.shtml
 status: 现行
 tags: [体重管理, 超重, 肥胖, 健康体重]
@@ -43,4 +42,3 @@ description: 国家卫健委《体重管理指导原则（2024年版）》要点
 | 发布机构 | 国家卫生健康委办公厅 |
 | 版本 | 2024 年版（现行） |
 | 发布时间 | 2024 年 12 月（具体日期待核对原文） |
-| 发文字号 | 待核对（见通知页原文） |
