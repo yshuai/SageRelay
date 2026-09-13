@@ -28,6 +28,12 @@ titleTemplate: false
 | [食品生产许可 SC 查询](/query/sc-food) | 市场监管总局 |
 | [医保定点机构查询](/query/yibao) | 国家医疗保障局 |
 
+## 站上工具
+
+- [**官方怎么说检索**](/find)：关键词定位语料片段与出处（一级/二级来源可过滤）
+- [**家庭管家**](/assist)：勾选家庭情况，组装对应指南与关键数字（规则化、带出处）
+- [**AI 语料 JSON**](https://yshuai.github.io/SageRelay/corpus.json)：全站内容结构化接口 · [RSS 订阅](https://yshuai.github.io/SageRelay/rss.xml)
+
 ## 权威数据页
 
 | 数据页 | 来源 |

@@ -61,6 +61,7 @@ const corpus = {
     ...collect('web/guides', 'guide'),
     ...collect('web/data', 'data'),
     ...collect('web/standards', 'standard'),
+    ...collect('web/query', 'query'),
   ],
 }
 
