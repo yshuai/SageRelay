@@ -206,6 +206,36 @@
     </item>
 
     <item>
+      <title>健康中国行动 · 疾病防治（行动 11—15）</title>
+      <link>https://yshuai.github.io/SageRelay/data/hc-action-disease.html</link>
+      <guid>https://yshuai.github.io/SageRelay/data/hc-action-disease.html</guid>
+      <description>健康中国行动 11—15 分页：心脑血管疾病、癌症、慢性呼吸系统疾病、糖尿病、传染病及地方病防治——定位与本站关联词条。</description>
+      <category>data</category>
+      <category>一级来源</category>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>健康中国行动 · 健康生活方式与基础（行动 1—6）</title>
+      <link>https://yshuai.github.io/SageRelay/data/hc-action-lifestyle.html</link>
+      <guid>https://yshuai.github.io/SageRelay/data/hc-action-lifestyle.html</guid>
+      <description>健康中国行动 1—6 分页：健康知识普及、合理膳食、全民健身、控烟、心理健康、健康环境——定位与量化方向速览。</description>
+      <category>data</category>
+      <category>一级来源</category>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>健康中国行动 · 重点人群（行动 7—10）</title>
+      <link>https://yshuai.github.io/SageRelay/data/hc-action-people.html</link>
+      <guid>https://yshuai.github.io/SageRelay/data/hc-action-people.html</guid>
+      <description>健康中国行动 7—10 分页：妇幼健康、中小学健康、职业健康保护、老年健康——定位与本站关联词条。</description>
+      <category>data</category>
+      <category>一级来源</category>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 GMT</pubDate>
+    </item>
+
+    <item>
       <title>健康中国行动（2019—2030年）· 15 个行动总览</title>
       <link>https://yshuai.github.io/SageRelay/data/healthy-china-action.html</link>
       <guid>https://yshuai.github.io/SageRelay/data/healthy-china-action.html</guid>
@@ -306,10 +336,30 @@
     </item>
 
     <item>
+      <title>医疗器械查询 · 家用设备也认"注册证</title>
+      <link>https://yshuai.github.io/SageRelay/standards/medical-device.html</link>
+      <guid>https://yshuai.github.io/SageRelay/standards/medical-device.html</guid>
+      <description>医疗器械真伪官方查询教程：NMPA 数据查询平台核对家用血压计、血糖仪等的注册证编号，区分械字号与"妆字号""消字号"。</description>
+      <category>query</category>
+      <category>一级来源</category>
+      <pubDate>Invalid Date</pubDate>
+    </item>
+
+    <item>
       <title>食品生产许可 SC 编码查询 · 看懂 SC 开头</title>
       <link>https://yshuai.github.io/SageRelay/standards/sc-food.html</link>
       <guid>https://yshuai.github.io/SageRelay/standards/sc-food.html</guid>
       <description>食品生产许可证 SC 编码官方查询教程：市场监管总局平台核对食品生产企业资质，识别小作坊散装食品的风险。</description>
+      <category>query</category>
+      <category>一级来源</category>
+      <pubDate>Invalid Date</pubDate>
+    </item>
+
+    <item>
+      <title>医保药品目录查询 · 这个药能不能报</title>
+      <link>https://yshuai.github.io/SageRelay/standards/yibao-drug.html</link>
+      <guid>https://yshuai.github.io/SageRelay/standards/yibao-drug.html</guid>
+      <description>医保药品目录官方查询教程：国家医保服务平台核对这个药在不在目录内、是甲类还是乙类，配合定点机构查询用。</description>
       <category>query</category>
       <category>一级来源</category>
       <pubDate>Invalid Date</pubDate>
