@@ -264,5 +264,65 @@
       <category>一级来源</category>
       <pubDate>Sat, 01 Mar 2025 00:00:00 GMT</pubDate>
     </item>
+
+    <item>
+      <title>化妆品备案/注册查询 · 防假货第一步</title>
+      <link>https://yshuai.github.io/SageRelay/standards/cosmetics.html</link>
+      <guid>https://yshuai.github.io/SageRelay/standards/cosmetics.html</guid>
+      <description>化妆品真假官方查询教程：NMPA 数据查询平台查备案/注册信息，30 秒核对产品身份，识别"药妆"等违规宣称。</description>
+      <category>query</category>
+      <category>一级来源</category>
+      <pubDate>Invalid Date</pubDate>
+    </item>
+
+    <item>
+      <title>药品批准文号查询 · 识别假药</title>
+      <link>https://yshuai.github.io/SageRelay/standards/drug.html</link>
+      <guid>https://yshuai.github.io/SageRelay/standards/drug.html</guid>
+      <description>药品真假官方查询教程：NMPA 数据查询平台核对药品批准文号（国药准字），识别假药与非法渠道药品。</description>
+      <category>query</category>
+      <category>一级来源</category>
+      <pubDate>Invalid Date</pubDate>
+    </item>
+
+    <item>
+      <title>保健食品注册备案查询 · 认准蓝帽子</title>
+      <link>https://yshuai.github.io/SageRelay/standards/health-food.html</link>
+      <guid>https://yshuai.github.io/SageRelay/standards/health-food.html</guid>
+      <description>保健食品真伪官方查询教程：市场监管总局特殊食品信息查询平台核对"蓝帽子"注册/备案号，防老人保健品骗局。</description>
+      <category>query</category>
+      <category>一级来源</category>
+      <pubDate>Invalid Date</pubDate>
+    </item>
+
+    <item>
+      <title>医疗机构与执业医师查询 · 防山寨医院假医生</title>
+      <link>https://yshuai.github.io/SageRelay/standards/hospital-doctor.html</link>
+      <guid>https://yshuai.github.io/SageRelay/standards/hospital-doctor.html</guid>
+      <description>医院和医生资质官方查询教程：卫健委政务服务平台"查信息"频道核对医疗机构执业登记与医师执业注册，防山寨医院与假医生。</description>
+      <category>query</category>
+      <category>一级来源</category>
+      <pubDate>Invalid Date</pubDate>
+    </item>
+
+    <item>
+      <title>食品生产许可 SC 编码查询 · 看懂 SC 开头</title>
+      <link>https://yshuai.github.io/SageRelay/standards/sc-food.html</link>
+      <guid>https://yshuai.github.io/SageRelay/standards/sc-food.html</guid>
+      <description>食品生产许可证 SC 编码官方查询教程：市场监管总局平台核对食品生产企业资质，识别小作坊散装食品的风险。</description>
+      <category>query</category>
+      <category>一级来源</category>
+      <pubDate>Invalid Date</pubDate>
+    </item>
+
+    <item>
+      <title>医保定点机构查询 · 就医前核对报销资格</title>
+      <link>https://yshuai.github.io/SageRelay/standards/yibao.html</link>
+      <guid>https://yshuai.github.io/SageRelay/standards/yibao.html</guid>
+      <description>国家医保服务平台定点医药机构查询教程：就医买药前核对医院/药店是否医保定点，避免报销落空。</description>
+      <category>query</category>
+      <category>一级来源</category>
+      <pubDate>Invalid Date</pubDate>
+    </item>
   </channel>
 </rss>
