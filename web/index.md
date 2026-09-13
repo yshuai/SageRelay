@@ -25,6 +25,8 @@ titleTemplate: false
 | [药品批准文号查询](/query/drug) | 国家药品监督管理局 |
 | [医疗机构与执业医师查询](/query/hospital-doctor) | 卫健委政务服务平台 |
 | [保健食品注册备案查询（蓝帽子）](/query/health-food) | 市场监管总局 |
+| [食品生产许可 SC 查询](/query/sc-food) | 市场监管总局 |
+| [医保定点机构查询](/query/yibao) | 国家医疗保障局 |
 
 ## 权威数据页
 
