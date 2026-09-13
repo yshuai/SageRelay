@@ -1,8 +1,9 @@
 name: Deploy to GitHub Pages
 
+# 当前 Pages 源为 gh-pages 分支（legacy 构建），本工作流仅手动触发备用。
+# 若要切回 Actions 部署：仓库 Settings → Pages → Source 选 GitHub Actions，
+# 并把下方 trigger 恢复为 push: branches: [main]。
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 permissions:

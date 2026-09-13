@@ -30,9 +30,9 @@ npm run preview  # 本地预览构建产物
 
 ## 部署
 
-- 远端仓库：`git@github.com:yshuai/SageRelay.git`（已关联）。
-- 仓库 Settings → Pages → Source 选 **GitHub Actions**（仅需一次）。
-- 之后每次推送到 `main` 自动构建部署到 https://yshuai.github.io/SageRelay/ 。工作流按仓库名自动设置子路径 base；若迁移到 `username.github.io` 用户主页仓库，把工作流中 `VP_BASE=/${GITHUB_REPOSITORY#*/}/` 改为 `VP_BASE=/`。
+- 线上地址：**https://yshuai.github.io/SageRelay/**
+- 当前方式：`web/.vitepress/dist` 以 `VP_BASE=/SageRelay/` 构建后，整目录推送到 `gh-pages` 分支（含 `.nojekyll`），Pages 源 = gh-pages 分支（legacy 构建）。更新词条后重新执行同样的构建与分支推送即可。
+- 备用方式：仓库内 Actions 工作流（`gh workflow run deploy.yml --manual`）已保留，但当前仅限手动触发——近期该账号的 Actions runner 长时间不接活，故切换为分支直发。想切回 Actions 部署：Settings → Pages → Source 选 **GitHub Actions**，并把工作流 trigger 恢复为 `push: branches: [main]`。
 
 ## 词条规范
 
