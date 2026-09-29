@@ -36,12 +36,8 @@ npm run preview  # 本地预览构建产物
 - 当前方式：`web/.vitepress/dist` 以子路径 base 构建后，整目录推送到 `gh-pages` 分支（含 `.nojekyll`），Pages 源 = gh-pages 分支（legacy 构建）。更新词条后重复执行即可：
 
   ```bash
-  # Git Bash 会把 VP_BASE=/SageRelay/ 的值自动转换成 Windows 盘符路径（MSYS path
-  # conversion），导致线上链接全部变成 file:// 盘符路径，必须带排除参数！
-  MSYS_NO_PATHCONV=1 MSYS2_ENV_CONV_EXCL="VP_BASE" VP_BASE=/SageRelay/ npm run build
-  # 自查：以下命令应输出 0
-  grep -r "C:/Users" web/.vitepress/dist/ | wc -l
-  # 然后推送 dist 到 gh-pages 分支，并 gh api -X POST repos/yshuai/SageRelay/pages/builds
+  npm run deploy          # 一键：构建 → gh-pages 推送 → 触发 Pages 构建
+  # （npm run deploy 从 Node 调用，不经 Git Bash 的 MSYS 路径转换，无需排除参数）
   ```
 
   `config.mts` 内另有盘符路径防御（识别到 `C:/` 开头的 base 自动回退正确值），双保险。
@@ -75,7 +71,7 @@ npm run preview  # 本地预览构建产物
 ## 待办
 
 - [ ] 「建议驿站 / SageRelay」全网查重（同名图书/公众号/商标）+ 域名注册
-- [ ] 全部内容人工校验（`reviewed: false` → 逐条点出处核验后置 true）
+- [ ] 全部内容人工校验（进度看 [校验看板](https://yshuai.github.io/SageRelay/verify.html)，核验后 `npm run deploy` 上线）
 - [ ] 词条量增长后评估 Pagefind 替换本地搜索（中文索引质量更好）
 - [ ] 收集家庭管家/检索页使用反馈，迭代第二层功能
 

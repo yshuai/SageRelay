@@ -1,0 +1,26 @@
+name: 内容纠错
+description: 指出站内内容与官方原文不一致（必须附权威来源链接，否则不受理）
+labels: [correction]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: 涉及页面
+      description: 站内页面路径或链接
+      placeholder: 例如 /guides/hypertension-2023
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: 官方原文链接
+      description: 必须是白名单机构（国务院部委及直属机构、官方指定专业机构）发布的原文；商业媒体、自媒体链接不受理。
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: 问题说明
+      description: 指出哪一条与原文不符、原文怎么说（引用原句最好）。
+    validations:
+      required: true

@@ -1,5 +1,6 @@
 node_modules/
 web/.vitepress/dist/
 web/.vitepress/cache/
+web/verify.md
 .DS_Store
 Thumbs.db

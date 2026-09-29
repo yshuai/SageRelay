@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 收录建议
+    url: https://github.com/yshuai/SageRelay/discussions
+    about: 建议收录新的官方指南/数据/查询服务（须属于白名单来源）
