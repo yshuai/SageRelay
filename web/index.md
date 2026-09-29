@@ -17,18 +17,17 @@ titleTemplate: false
 | [GB 7718 预包装食品标签通则](/standards/gb7718-food-label) | GB 7718—2011（新版 2025 已发布，2027 实施） | 现行 |
 | [标签要变什么 · 新旧对比预告](/standards/gb28050-2025-preview) | GB 28050—2011 → 2025 | 预告 |
 
-## 官方查询（防坑四大件）
+## 官方查询（按场景）
 
-| 查询页 | 平台 |
-| --- | --- |
-| [化妆品备案/注册查询](/query/cosmetics) | 国家药品监督管理局 |
-| [药品批准文号查询](/query/drug) | 国家药品监督管理局 |
-| [医疗机构与执业医师查询](/query/hospital-doctor) | 卫健委政务服务平台 |
-| [保健食品注册备案查询（蓝帽子）](/query/health-food) | 市场监管总局 |
-| [食品生产许可 SC 查询](/query/sc-food) | 市场监管总局 |
-| [医保定点机构查询](/query/yibao) | 国家医疗保障局 |
-| [医疗器械查询](/query/medical-device) | 国家药品监督管理局 |
-| [医保药品目录查询](/query/yibao-drug) | 国家医疗保障局 |
+**吃得放心**：[食品抽检](/query/food-spot-check) · [溯源码](/query/traceability) · [SC 生产许可](/query/sc-food) · [药品](/query/drug) · [保健食品](/query/health-food)
+
+**买得明白**：[化妆品](/query/cosmetics) · [医疗器械](/query/medical-device) · [消协 315 扫码辨商品](/query/cca-315) · [消费品召回](/query/recall) · [企业信用](/query/enterprise-credit)
+
+**就医用药**：[机构与医师](/query/hospital-doctor) · [医保定点](/query/yibao) · [医保药品目录](/query/yibao-drug)
+
+**家庭与出行**：[养老地图](/query/elder-care) · [健身一张图](/query/fitness-map) · [导游/旅行社核验](/query/tour-guide) · [空气与水质](/query/environment)
+
+完整导航见[官方查询 · 按生活场景](/query/)。
 | [食品生产许可 SC 查询](/query/sc-food) | 市场监管总局 |
 | [医保定点机构查询](/query/yibao) | 国家医疗保障局 |
 

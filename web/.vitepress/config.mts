@@ -116,16 +116,39 @@ export default defineConfig({
       ],
       '/query/': [
         {
-          text: '官方查询',
+          text: '场景导航',
+          items: [{ text: '官方查询导航 · 按生活场景', link: '/query/' }],
+        },
+        {
+          text: '吃 & 购',
           items: [
-            { text: '化妆品备案/注册查询', link: '/query/cosmetics' },
-            { text: '药品批准文号查询', link: '/query/drug' },
-            { text: '医疗机构与执业医师查询', link: '/query/hospital-doctor' },
-            { text: '保健食品注册备案查询', link: '/query/health-food' },
+            { text: '食品抽检结果查询（食安查）', link: '/query/food-spot-check' },
+            { text: '溯源码查询（农产品/婴幼儿乳粉）', link: '/query/traceability' },
             { text: '食品生产许可 SC 查询', link: '/query/sc-food' },
-            { text: '医保定点机构查询', link: '/query/yibao' },
+            { text: '化妆品备案/注册查询', link: '/query/cosmetics' },
             { text: '医疗器械查询', link: '/query/medical-device' },
+            { text: '保健食品注册备案查询', link: '/query/health-food' },
+            { text: '药品批准文号查询', link: '/query/drug' },
+          ],
+        },
+        {
+          text: '维权 & 信用',
+          items: [
+            { text: '消协智慧 315 · 扫码辨商品', link: '/query/cca-315' },
+            { text: '消费品召回查询', link: '/query/recall' },
+            { text: '企业信用查询', link: '/query/enterprise-credit' },
+          ],
+        },
+        {
+          text: '就医 & 家庭 & 出行',
+          items: [
+            { text: '医疗机构与执业医师查询', link: '/query/hospital-doctor' },
+            { text: '医保定点机构查询', link: '/query/yibao' },
             { text: '医保药品目录查询', link: '/query/yibao-drug' },
+            { text: '养老机构查询（养老地图）', link: '/query/elder-care' },
+            { text: '健身一张图', link: '/query/fitness-map' },
+            { text: '导游与旅行社核验', link: '/query/tour-guide' },
+            { text: '空气质量与水质查询', link: '/query/environment' },
           ],
         },
       ],
