@@ -25,7 +25,9 @@ titleTemplate: false
 
 **就医用药**：[机构与医师](/query/hospital-doctor) · [医保定点](/query/yibao) · [医保药品目录](/query/yibao-drug)
 
-**考证与学历**：[证书查询（国家目录核对）](/query/cert-search) · [技能补贴申领](/query/skill-subsidy) · [学信网学历核验](/query/education-verify)
+**考证与学历**：[证书查询（国家目录核对）](/query/cert-search) · [健康考证骗局拆解](/query/health-cert-scam) · [技能补贴申领](/query/skill-subsidy) · [学信网学历核验](/query/education-verify)
+
+**家庭办事**：[宝宝出生 30 天清单](/family/baby-checklist) · [养老金身故权益](/social/pension-after-death)
 
 **家庭与出行**：[养老地图](/query/elder-care) · [健身一张图](/query/fitness-map) · [导游/旅行社核验](/query/tour-guide) · [空气与水质](/query/environment)
 

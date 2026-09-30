@@ -63,6 +63,7 @@ const corpus = {
     ...collect('web/standards', 'standard'),
     ...collect('web/query', 'query'),
     ...collect('web/social', 'social'),
+    ...collect('web/family', 'family'),
   ],
 }
 

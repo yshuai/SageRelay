@@ -13,6 +13,7 @@ const pathOf = (d) =>
   : d.type === 'data' ? `/data/${d.slug}.html`
   : d.type === 'standard' ? `/standards/${d.slug}.html`
   : d.type === 'social' ? `/social/${d.slug}.html`
+  : d.type === 'family' ? `/family/${d.slug}.html`
   : `/query/${d.slug}.html`
 
 const items = corpus.documents
