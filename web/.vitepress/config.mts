@@ -163,6 +163,7 @@ export default defineConfig({
             { text: '医疗器械查询', link: '/query/medical-device' },
             { text: '保健食品注册备案查询', link: '/query/health-food' },
             { text: '药品批准文号查询', link: '/query/drug' },
+            { text: '更多核验：发票/手机/理财/快递', link: '/query/more-verify' },
           ],
         },
         {
