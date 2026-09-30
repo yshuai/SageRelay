@@ -114,10 +114,25 @@ export default defineConfig({
           ],
         },
       ],
+      '/social/': [
+        {
+          text: '社保公积金',
+          items: [
+            { text: '养老金身故后怎么办（继承与遗属待遇）', link: '/social/pension-after-death' },
+          ],
+        },
+      ],
       '/query/': [
         {
           text: '场景导航',
           items: [{ text: '官方查询导航 · 按生活场景', link: '/query/' }],
+        },
+        {
+          text: '社保公积金',
+          items: [
+            { text: '国家社保平台（权益/测算/认证）', link: '/query/si-12333' },
+            { text: '公积金查询（余额/提取/继承）', link: '/query/housing-fund' },
+          ],
         },
         {
           text: '吃 & 购',

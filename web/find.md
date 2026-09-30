@@ -24,7 +24,9 @@ fetch(withBase('/corpus.json'))
 const pathOf = (d) => withBase(
   d.type === 'guide' ? `/guides/${d.slug}.html`
   : d.type === 'data' ? `/data/${d.slug}.html`
-  : `/standards/${d.slug}.html`
+  : d.type === 'standard' ? `/standards/${d.slug}.html`
+  : d.type === 'social' ? `/social/${d.slug}.html`
+  : `/query/${d.slug}.html`
 )
 
 const results = computed(() => {

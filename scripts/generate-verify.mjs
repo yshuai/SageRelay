@@ -6,10 +6,10 @@ import { fileURLToPath } from 'node:url'
 const root = join(dirname(fileURLToPath(import.meta.url)), '..')
 const corpus = JSON.parse(readFileSync(join(root, 'web', 'public', 'corpus.json'), 'utf-8'))
 
-const typeZh = { guide: '指南词条', data: '数据页', standard: '国标科普', query: '查询页' }
-const fileOf = (d) => `web/${d.type === 'guide' ? 'guides' : d.type === 'data' ? 'data' : d.type === 'standard' ? 'standards' : 'query'}/${d.slug}.md`
+const typeZh = { guide: '指南词条', data: '数据页', standard: '国标科普', query: '查询页', social: '社保词条' }
+const fileOf = (d) => `web/${d.type === 'guide' ? 'guides' : d.type === 'data' ? 'data' : d.type === 'standard' ? 'standards' : d.type === 'social' ? 'social' : 'query'}/${d.slug}.md`
 const pageOf = (d) =>
-  d.type === 'guide' ? `/guides/${d.slug}.html` : d.type === 'data' ? `/data/${d.slug}.html` : d.type === 'standard' ? `/standards/${d.slug}.html` : `/query/${d.slug}.html`
+  d.type === 'guide' ? `/guides/${d.slug}.html` : d.type === 'data' ? `/data/${d.slug}.html` : d.type === 'standard' ? `/standards/${d.slug}.html` : d.type === 'social' ? `/social/${d.slug}.html` : `/query/${d.slug}.html`
 
 const docs = [...corpus.documents].sort((a, b) => a.reviewed - b.reviewed)
 const done = corpus.documents.filter((d) => d.reviewed).length

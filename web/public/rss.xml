@@ -317,8 +317,8 @@
 
     <item>
       <title>消协智慧 315 · 扫码辨商品与消费维权</title>
-      <link>https://yshuai.github.io/SageRelay/standards/cca-315.html</link>
-      <guid>https://yshuai.github.io/SageRelay/standards/cca-315.html</guid>
+      <link>https://yshuai.github.io/SageRelay/query/cca-315.html</link>
+      <guid>https://yshuai.github.io/SageRelay/query/cca-315.html</guid>
       <description>中国消费者协会"智慧315"平台教程：扫码核对商品条码与登记信息、在线投诉，网购收货时用得上。</description>
       <category>query</category>
       <category>二级来源</category>
@@ -327,8 +327,8 @@
 
     <item>
       <title>化妆品备案/注册查询 · 防假货第一步</title>
-      <link>https://yshuai.github.io/SageRelay/standards/cosmetics.html</link>
-      <guid>https://yshuai.github.io/SageRelay/standards/cosmetics.html</guid>
+      <link>https://yshuai.github.io/SageRelay/query/cosmetics.html</link>
+      <guid>https://yshuai.github.io/SageRelay/query/cosmetics.html</guid>
       <description>化妆品真假官方查询教程：NMPA 数据查询平台查备案/注册信息，30 秒核对产品身份，识别"药妆"等违规宣称。</description>
       <category>query</category>
       <category>一级来源</category>
@@ -337,8 +337,8 @@
 
     <item>
       <title>药品批准文号查询 · 识别假药</title>
-      <link>https://yshuai.github.io/SageRelay/standards/drug.html</link>
-      <guid>https://yshuai.github.io/SageRelay/standards/drug.html</guid>
+      <link>https://yshuai.github.io/SageRelay/query/drug.html</link>
+      <guid>https://yshuai.github.io/SageRelay/query/drug.html</guid>
       <description>药品真假官方查询教程：NMPA 数据查询平台核对药品批准文号（国药准字），识别假药与非法渠道药品。</description>
       <category>query</category>
       <category>一级来源</category>
@@ -347,8 +347,8 @@
 
     <item>
       <title>养老机构查询（养老地图）· 给爸妈找照护</title>
-      <link>https://yshuai.github.io/SageRelay/standards/elder-care.html</link>
-      <guid>https://yshuai.github.io/SageRelay/standards/elder-care.html</guid>
+      <link>https://yshuai.github.io/SageRelay/query/elder-care.html</link>
+      <guid>https://yshuai.github.io/SageRelay/query/elder-care.html</guid>
       <description>民政部全国养老服务信息平台（养老地图）官方查询教程：查身边养老机构、社区照护与助餐点，选养老院第一步。</description>
       <category>query</category>
       <category>一级来源</category>
@@ -357,8 +357,8 @@
 
     <item>
       <title>企业信用查询 · 办卡充值前先查商家底细</title>
-      <link>https://yshuai.github.io/SageRelay/standards/enterprise-credit.html</link>
-      <guid>https://yshuai.github.io/SageRelay/standards/enterprise-credit.html</guid>
+      <link>https://yshuai.github.io/SageRelay/query/enterprise-credit.html</link>
+      <guid>https://yshuai.github.io/SageRelay/query/enterprise-credit.html</guid>
       <description>国家企业信用信息公示系统官方查询教程：办健身卡、充教培、签装修合同前查商家行政处罚与经营异常记录。</description>
       <category>query</category>
       <category>一级来源</category>
@@ -367,8 +367,8 @@
 
     <item>
       <title>身边环境查询 · 空气质量与地表水</title>
-      <link>https://yshuai.github.io/SageRelay/standards/environment.html</link>
-      <guid>https://yshuai.github.io/SageRelay/standards/environment.html</guid>
+      <link>https://yshuai.github.io/SageRelay/query/environment.html</link>
+      <guid>https://yshuai.github.io/SageRelay/query/environment.html</guid>
       <description>中国环境监测总站官方查询教程：查城市实时空气质量（AQI）与国控地表水站点水质，安排出行与健康防护。</description>
       <category>query</category>
       <category>一级来源</category>
@@ -377,8 +377,8 @@
 
     <item>
       <title>身边健身设施查询（健身一张图）</title>
-      <link>https://yshuai.github.io/SageRelay/standards/fitness-map.html</link>
-      <guid>https://yshuai.github.io/SageRelay/standards/fitness-map.html</guid>
+      <link>https://yshuai.github.io/SageRelay/query/fitness-map.html</link>
+      <guid>https://yshuai.github.io/SageRelay/query/fitness-map.html</guid>
       <description>体育总局全民健身信息服务平台官方查询教程：电子地图查身边体育场馆、健身器材、体育公园，支持预订。</description>
       <category>query</category>
       <category>一级来源</category>
@@ -387,8 +387,8 @@
 
     <item>
       <title>食品抽检结果查询（食安查）· 这个牌子被通报过吗</title>
-      <link>https://yshuai.github.io/SageRelay/standards/food-spot-check.html</link>
-      <guid>https://yshuai.github.io/SageRelay/standards/food-spot-check.html</guid>
+      <link>https://yshuai.github.io/SageRelay/query/food-spot-check.html</link>
+      <guid>https://yshuai.github.io/SageRelay/query/food-spot-check.html</guid>
       <description>食品安全抽检公布结果官方查询教程：按食品名称/企业名称查 2014 年以来抽检合格与不合格记录，买菜买奶粉前先查一眼。</description>
       <category>query</category>
       <category>一级来源</category>
@@ -397,8 +397,8 @@
 
     <item>
       <title>保健食品注册备案查询 · 认准蓝帽子</title>
-      <link>https://yshuai.github.io/SageRelay/standards/health-food.html</link>
-      <guid>https://yshuai.github.io/SageRelay/standards/health-food.html</guid>
+      <link>https://yshuai.github.io/SageRelay/query/health-food.html</link>
+      <guid>https://yshuai.github.io/SageRelay/query/health-food.html</guid>
       <description>保健食品真伪官方查询教程：市场监管总局特殊食品信息查询平台核对"蓝帽子"注册/备案号，防老人保健品骗局。</description>
       <category>query</category>
       <category>一级来源</category>
@@ -407,8 +407,8 @@
 
     <item>
       <title>医疗机构与执业医师查询 · 防山寨医院假医生</title>
-      <link>https://yshuai.github.io/SageRelay/standards/hospital-doctor.html</link>
-      <guid>https://yshuai.github.io/SageRelay/standards/hospital-doctor.html</guid>
+      <link>https://yshuai.github.io/SageRelay/query/hospital-doctor.html</link>
+      <guid>https://yshuai.github.io/SageRelay/query/hospital-doctor.html</guid>
       <description>医院和医生资质官方查询教程：卫健委政务服务平台"查信息"频道核对医疗机构执业登记与医师执业注册，防山寨医院与假医生。</description>
       <category>query</category>
       <category>一级来源</category>
@@ -416,9 +416,19 @@
     </item>
 
     <item>
+      <title>公积金查询 · 余额、提取与继承</title>
+      <link>https://yshuai.github.io/SageRelay/query/housing-fund.html</link>
+      <guid>https://yshuai.github.io/SageRelay/query/housing-fund.html</guid>
+      <description>住房公积金官方查询教程：全国住房公积金小程序查余额缴存、依法提取情形、身故后继承人提取路线，12329 热线。</description>
+      <category>query</category>
+      <category>一级来源</category>
+      <pubDate>Invalid Date</pubDate>
+    </item>
+
+    <item>
       <title>官方查询导航 · 按生活场景</title>
-      <link>https://yshuai.github.io/SageRelay/standards/index.html</link>
-      <guid>https://yshuai.github.io/SageRelay/standards/index.html</guid>
+      <link>https://yshuai.github.io/SageRelay/query/index.html</link>
+      <guid>https://yshuai.github.io/SageRelay/query/index.html</guid>
       <description></description>
       <category>query</category>
       <category></category>
@@ -427,8 +437,8 @@
 
     <item>
       <title>医疗器械查询 · 家用设备也认"注册证</title>
-      <link>https://yshuai.github.io/SageRelay/standards/medical-device.html</link>
-      <guid>https://yshuai.github.io/SageRelay/standards/medical-device.html</guid>
+      <link>https://yshuai.github.io/SageRelay/query/medical-device.html</link>
+      <guid>https://yshuai.github.io/SageRelay/query/medical-device.html</guid>
       <description>医疗器械真伪官方查询教程：NMPA 数据查询平台核对家用血压计、血糖仪等的注册证编号，区分械字号与"妆字号""消字号"。</description>
       <category>query</category>
       <category>一级来源</category>
@@ -437,8 +447,8 @@
 
     <item>
       <title>消费品召回查询 · 家里的东西被召回了吗</title>
-      <link>https://yshuai.github.io/SageRelay/standards/recall.html</link>
-      <guid>https://yshuai.github.io/SageRelay/standards/recall.html</guid>
+      <link>https://yshuai.github.io/SageRelay/query/recall.html</link>
+      <guid>https://yshuai.github.io/SageRelay/query/recall.html</guid>
       <description>消费品召回官方查询教程：市场监管总局召回中心查儿童玩具、家电、家居用品是否在召回范围内。</description>
       <category>query</category>
       <category>一级来源</category>
@@ -447,8 +457,8 @@
 
     <item>
       <title>食品生产许可 SC 编码查询 · 看懂 SC 开头</title>
-      <link>https://yshuai.github.io/SageRelay/standards/sc-food.html</link>
-      <guid>https://yshuai.github.io/SageRelay/standards/sc-food.html</guid>
+      <link>https://yshuai.github.io/SageRelay/query/sc-food.html</link>
+      <guid>https://yshuai.github.io/SageRelay/query/sc-food.html</guid>
       <description>食品生产许可证 SC 编码官方查询教程：市场监管总局平台核对食品生产企业资质，识别小作坊散装食品的风险。</description>
       <category>query</category>
       <category>一级来源</category>
@@ -456,9 +466,19 @@
     </item>
 
     <item>
+      <title>国家社会保险公共服务平台 · 查权益算养老金做认证</title>
+      <link>https://yshuai.github.io/SageRelay/query/si-12333.html</link>
+      <guid>https://yshuai.github.io/SageRelay/query/si-12333.html</guid>
+      <description>国家社会保险公共服务平台官方查询教程：查缴费权益记录、测算养老金（含城乡居民版）、待遇资格刷脸认证、12333 热线。</description>
+      <category>query</category>
+      <category>一级来源</category>
+      <pubDate>Invalid Date</pubDate>
+    </item>
+
+    <item>
       <title>导游与旅行社核验 · 出游前查资质</title>
-      <link>https://yshuai.github.io/SageRelay/standards/tour-guide.html</link>
-      <guid>https://yshuai.github.io/SageRelay/standards/tour-guide.html</guid>
+      <link>https://yshuai.github.io/SageRelay/query/tour-guide.html</link>
+      <guid>https://yshuai.github.io/SageRelay/query/tour-guide.html</guid>
       <description>全国旅游监管服务平台官方查询教程：核验电子导游证与旅行社经营资质，防"黑导游"与不合理低价团。</description>
       <category>query</category>
       <category>一级来源</category>
@@ -467,8 +487,8 @@
 
     <item>
       <title>溯源码查询 · 农产品与婴幼儿配方乳粉的"前世今生</title>
-      <link>https://yshuai.github.io/SageRelay/standards/traceability.html</link>
-      <guid>https://yshuai.github.io/SageRelay/standards/traceability.html</guid>
+      <link>https://yshuai.github.io/SageRelay/query/traceability.html</link>
+      <guid>https://yshuai.github.io/SageRelay/query/traceability.html</guid>
       <description>扫溯源码查农产品与婴幼儿配方乳粉的官方教程：农业农村部国家追溯平台与工信部食品工业企业追溯平台。</description>
       <category>query</category>
       <category>一级来源</category>
@@ -477,8 +497,8 @@
 
     <item>
       <title>医保药品目录查询 · 这个药能不能报</title>
-      <link>https://yshuai.github.io/SageRelay/standards/yibao-drug.html</link>
-      <guid>https://yshuai.github.io/SageRelay/standards/yibao-drug.html</guid>
+      <link>https://yshuai.github.io/SageRelay/query/yibao-drug.html</link>
+      <guid>https://yshuai.github.io/SageRelay/query/yibao-drug.html</guid>
       <description>医保药品目录官方查询教程：国家医保服务平台核对这个药在不在目录内、是甲类还是乙类，配合定点机构查询用。</description>
       <category>query</category>
       <category>一级来源</category>
@@ -487,12 +507,22 @@
 
     <item>
       <title>医保定点机构查询 · 就医前核对报销资格</title>
-      <link>https://yshuai.github.io/SageRelay/standards/yibao.html</link>
-      <guid>https://yshuai.github.io/SageRelay/standards/yibao.html</guid>
+      <link>https://yshuai.github.io/SageRelay/query/yibao.html</link>
+      <guid>https://yshuai.github.io/SageRelay/query/yibao.html</guid>
       <description>国家医保服务平台定点医药机构查询教程：就医买药前核对医院/药店是否医保定点，避免报销落空。</description>
       <category>query</category>
       <category>一级来源</category>
       <pubDate>Invalid Date</pubDate>
+    </item>
+
+    <item>
+      <title>养老金身故后怎么办 · 继承与遗属待遇（家庭必读）</title>
+      <link>https://yshuai.github.io/SageRelay/social/pension-after-death.html</link>
+      <guid>https://yshuai.github.io/SageRelay/social/pension-after-death.html</guid>
+      <description>家人去世后养老金怎么处理：个人账户余额依法继承、139 个月计发月数是什么、丧葬补助金与抚恤金、身故后该办的四件事。</description>
+      <category>social</category>
+      <category>一级来源</category>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
