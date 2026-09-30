@@ -43,6 +43,8 @@ titleTemplate: false
 | --- | --- |
 | [营养与慢性病状况报告（2020）核心数据](/data/chronic-disease-report-2020) | 国家卫生健康委（国新办发布） |
 | [中国人群身体活动指南（2021）分人群推荐量](/data/physical-activity-2021) | 中国疾控中心 + 国家体育总局体科所 |
+| [健康中国行动 · 15 个行动总览](/data/healthy-china-action) | 健康中国行动推进委员会（含[生活方式](/data/hc-action-lifestyle)、[重点人群](/data/hc-action-people)、[疾病防治](/data/hc-action-disease)三页展开） |
+| [各地最低工资标准（截至2026-01-01）](/data/minimum-wage-2026) | 人力资源社会保障部（含最低社保缴费基数口径） |
 
 ## 当前收录（19 篇词条）
 

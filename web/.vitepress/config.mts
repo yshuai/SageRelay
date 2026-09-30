@@ -98,6 +98,7 @@ export default defineConfig({
             { text: '健康中国行动 · 生活方式与基础', link: '/data/hc-action-lifestyle' },
             { text: '健康中国行动 · 重点人群', link: '/data/hc-action-people' },
             { text: '健康中国行动 · 疾病防治', link: '/data/hc-action-disease' },
+            { text: '各地最低工资标准（截至2026-01-01）', link: '/data/minimum-wage-2026' },
           ],
         },
       ],
