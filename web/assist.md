@@ -132,6 +132,7 @@ const skills = [
 | 办卡充值前查商家底细（失信/处罚记录） | [企业信用查询](/query/enterprise-credit) |
 | 出了纠纷要投诉举报 | [全国 12315 平台](/query/samr-12315) |
 | 考来的证是真的吗（防野鸡证） | [考证防坑 · 证书查询](/query/cert-search) |
+| 考出目录内证书可领补贴 | [技能提升补贴申领](/query/skill-subsidy) |
 | 文凭查真伪 | [学历学籍查询（学信网）](/query/education-verify) |
 
 **医 & 老 & 钱**：

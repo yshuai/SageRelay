@@ -12,6 +12,7 @@ titleTemplate: false
 | 查什么 | 入口页 |
 | --- | --- |
 | 考来的证是真的吗（国家目录核对） | [考证防坑 · 证书查询](/query/cert-search) |
+| 考出目录内证书可领政府补贴 | [技能提升补贴申领](/query/skill-subsidy) |
 | 文凭查真伪、防野鸡大学 | [学历学籍查询（学信网）](/query/education-verify) |
 
 ## 🏦 社保公积金

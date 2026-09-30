@@ -132,6 +132,7 @@ export default defineConfig({
           text: '考证 & 学历',
           items: [
             { text: '考证防坑 · 证书查询', link: '/query/cert-search' },
+            { text: '技能提升补贴申领', link: '/query/skill-subsidy' },
             { text: '学历学籍查询（学信网）', link: '/query/education-verify' },
           ],
         },
