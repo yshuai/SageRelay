@@ -129,6 +129,13 @@ export default defineConfig({
           items: [{ text: '官方查询导航 · 按生活场景', link: '/query/' }],
         },
         {
+          text: '考证 & 学历',
+          items: [
+            { text: '考证防坑 · 证书查询', link: '/query/cert-search' },
+            { text: '学历学籍查询（学信网）', link: '/query/education-verify' },
+          ],
+        },
+        {
           text: '社保公积金',
           items: [
             { text: '国家社保平台（权益/测算/认证）', link: '/query/si-12333' },
