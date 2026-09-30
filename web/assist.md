@@ -99,22 +99,47 @@ const skills = [
 | <span>{{ common[3].t }}</span> | <a :href="common[3].l">高血压食养指南</a> |
 | <span>{{ common[4].t }}</span> | <a :href="common[4].l">慢性病报告核心数据</a> |
 
-## 采购技能（两把尺子）
+## 采购技能（三步法：看标签 → 查资质 → 查监管）
 
 | 技能 | 出处词条 |
 | --- | --- |
 | <span v-for="s in skills.slice(0,1)">{{ s.t }}</span> | <a :href="skills[0].l">GB 28050 营养标签</a> |
 | <span>{{ skills[1].t }}</span> | <a :href="skills[1].l">GB 7718 食品标签</a> |
 | <span>{{ skills[2].t }}</span> | <a :href="skills[2].l">GB 7718 食品标签</a> |
+| 查监管记录：抽检通报、召回公告、失信与处罚公示 | [食安查](/query/food-spot-check) · [召回查询](/query/recall) · [企业信用](/query/enterprise-credit) |
+| 出了问题：先消协/12315 投诉举报 | [消协 315](/query/cca-315) · [全国 12315 平台](/query/samr-12315) |
 
-## 第三步 · 查一查（防坑验证）
+## 第三步 · 查一查（防坑验证，监管总局全家桶）
+
+**吃**：
+
+| 场景 | 官方查询 |
+| --- | --- |
+| 买的食品/牌子被抽检通报过吗 | [食品抽检结果查询（食安查）](/query/food-spot-check) |
+| 农产品/婴幼儿配方乳粉的履历 | [溯源码查询](/query/traceability) |
+| 工厂有生产许可吗 | [食品生产许可 SC 查询](/query/sc-food) |
+
+**买**：
 
 | 场景 | 官方查询 |
 | --- | --- |
 | 买了化妆品 / 护肤品 | [化妆品备案/注册查询](/query/cosmetics) |
-| 拿到不熟悉的药品 | [药品批准文号查询](/query/drug) |
-| 新去看的医院或"专家" | [医疗机构与执业医师查询](/query/hospital-doctor) |
+| 血压计、血糖仪等家用设备 | [医疗器械查询](/query/medical-device) |
 | 给老人买保健品 | [保健食品注册备案查询（蓝帽子）](/query/health-food) |
+| 拿到不熟悉的药品 | [药品批准文号查询](/query/drug) |
+| 条码与登记信息一致吗 | [消协智慧 315 · 扫码辨商品](/query/cca-315) |
+| 家里的东西被召回了吗 | [消费品召回查询](/query/recall) |
+| 办卡充值前查商家底细（失信/处罚记录） | [企业信用查询](/query/enterprise-credit) |
+| 出了纠纷要投诉举报 | [全国 12315 平台](/query/samr-12315) |
+
+**医 & 老 & 钱**：
+
+| 场景 | 官方查询 |
+| --- | --- |
+| 新去看的医院或"专家" | [医疗机构与执业医师查询](/query/hospital-doctor) |
+| 医保能不能报（定点/目录） | [医保定点](/query/yibao) · [医保药品目录](/query/yibao-drug) |
+| 给爸妈找养老机构 | [养老地图](/query/elder-care) |
+| 父母的养老金与认证 | [养老金身故权益](/social/pension-after-death) · [国家社保平台](/query/si-12333) |
 
 ::: tip 数据背景
 为什么这些数字值得认真对待：[慢性病报告核心数据](/data/chronic-disease-report-2020)——每 3 个成人约 1 个高血压，每 2 个成人约 1 个体重超标。

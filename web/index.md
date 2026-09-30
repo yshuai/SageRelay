@@ -21,7 +21,7 @@ titleTemplate: false
 
 **吃得放心**：[食品抽检](/query/food-spot-check) · [溯源码](/query/traceability) · [SC 生产许可](/query/sc-food) · [药品](/query/drug) · [保健食品](/query/health-food)
 
-**买得明白**：[化妆品](/query/cosmetics) · [医疗器械](/query/medical-device) · [消协 315 扫码辨商品](/query/cca-315) · [消费品召回](/query/recall) · [企业信用](/query/enterprise-credit)
+**买得明白**：[化妆品](/query/cosmetics) · [医疗器械](/query/medical-device) · [消协 315 扫码辨商品](/query/cca-315) · [消费品召回](/query/recall) · [企业信用](/query/enterprise-credit) · [12315 投诉举报](/query/samr-12315)
 
 **就医用药**：[机构与医师](/query/hospital-doctor) · [医保定点](/query/yibao) · [医保药品目录](/query/yibao-drug)
 

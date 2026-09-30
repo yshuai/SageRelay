@@ -33,7 +33,8 @@ titleTemplate: false
 | 血压计血糖仪等有注册证吗 | [医疗器械查询](/query/medical-device) |
 | 条码与登记信息一致吗 | [消协智慧 315 · 扫码辨商品](/query/cca-315) |
 | 家里东西被召回了吗 | [消费品召回查询](/query/recall) |
-| 商家有没有处罚/异常记录 | [企业信用查询](/query/enterprise-credit) |
+| 商家有没有处罚/异常记录（失信企业） | [企业信用查询](/query/enterprise-credit) |
+| 投诉举报与处理进度 | [全国 12315 平台](/query/samr-12315) |
 
 ## 🏥 就医用药
 

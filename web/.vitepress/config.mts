@@ -153,6 +153,7 @@ export default defineConfig({
             { text: '消协智慧 315 · 扫码辨商品', link: '/query/cca-315' },
             { text: '消费品召回查询', link: '/query/recall' },
             { text: '企业信用查询', link: '/query/enterprise-credit' },
+            { text: '全国 12315 投诉举报平台', link: '/query/samr-12315' },
           ],
         },
         {
