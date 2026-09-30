@@ -44,6 +44,8 @@ titleTemplate: false
 | 家里东西被召回了吗 | [消费品召回查询](/query/recall) |
 | 商家有没有处罚/异常记录（失信企业） | [企业信用查询](/query/enterprise-credit) |
 | 投诉举报与处理进度 | [全国 12315 平台](/query/samr-12315) |
+| 投诉渠道怎么选（官方矩阵+黑猫等市场化平台） | [投诉举报渠道全景](/query/complaint-channels) |
+| 投诉举报与处理进度 | [全国 12315 平台](/query/samr-12315) |
 
 ## 🏥 就医用药
 

@@ -167,6 +167,7 @@ export default defineConfig({
         {
           text: '维权 & 信用',
           items: [
+            { text: '投诉举报渠道全景', link: '/query/complaint-channels' },
             { text: '消协智慧 315 · 扫码辨商品', link: '/query/cca-315' },
             { text: '消费品召回查询', link: '/query/recall' },
             { text: '企业信用查询', link: '/query/enterprise-credit' },
