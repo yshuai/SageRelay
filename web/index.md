@@ -7,102 +7,31 @@ titleTemplate: false
 
 > 驿站，是古代官方文书接力传递的节点——我们收录官方指南、附上出处，一站站寄给需要的人。
 
-**建议驿站（SageRelay）**是一个非官方的科普汇编站：把国家权威部门发布的指南文件，整理成可溯源、受版本控制的词条。我们不做任何自创的健康论断，你看到的每个结论都能点进原文核对。
+**建议驿站（SageRelay）**是非官方的科普汇编站：把国家权威部门的指南、标准、数据与查询服务，整理成**可溯源、受版本控制**的页面。不做自创健康论断，每个结论都能点进原文核对。**非官方 · 不带货 · 不构成诊疗建议**。
 
-## 国标科普（试点）
+## 五个入口
 
-| 词条 | 标准号 | 状态 |
+| 栏目 | 里面有什么 | 去哪 |
 | --- | --- | --- |
-| [GB 28050 预包装食品营养标签通则](/standards/gb28050-nutrition-label) | GB 28050—2011（新版 2025 已发布，2027 实施） | 现行 |
-| [GB 7718 预包装食品标签通则](/standards/gb7718-food-label) | GB 7718—2011（新版 2025 已发布，2027 实施） | 现行 |
-| [标签要变什么 · 新旧对比预告](/standards/gb28050-2025-preview) | GB 28050—2011 → 2025 | 预告 |
+| **🧭 食养指南词条**（19 篇） | 高血压、糖尿病、肥胖、痛风、骨质疏松……速览卡 + 买/做/吃/动/测行动清单，每条带原文页码出处 | [成人慢病食养](/guides/hypertension-2023) · [总纲](/guides/dietary-guidelines-2022) |
+| **📊 权威数据页**（8 篇） | 慢性病患病率、运动推荐量、健康中国行动、最低工资标准 | [慢性病报告数据](/data/chronic-disease-report-2020) · [最低工资](/data/minimum-wage-2026) |
+| **📏 国标科普**（6 篇） | 看懂营养成分表与配料表（GB 28050/GB 7718），含 2027 新版变化预告 | [GB 28050 营养标签](/standards/gb28050-nutrition-label) · [新旧对比](/standards/gb28050-2025-preview) |
+| **🔍 官方查询**（28 篇 + 导航） | 化妆品/药品/器械/保健食品验真、机构医师、医保、企业信用与召回、考证学历、反诈 | [场景导航](/query/) · [反诈体检](/query/anti-fraud) |
+| **🏦 办事与权益**（2 篇） | 养老金身故权益、宝宝出生 30 天办事清单 | [养老金怎么办](/social/pension-after-death) · [宝宝清单](/family/baby-checklist) |
 
-## 官方查询（按场景）
+**📄 [全站目录](/catalog)** —— 65 篇内容一页看完。
 
-**吃得放心**：[食品抽检](/query/food-spot-check) · [溯源码](/query/traceability) · [SC 生产许可](/query/sc-food) · [药品](/query/drug) · [保健食品](/query/health-food)
+## 工具
 
-**买得明白**：[化妆品](/query/cosmetics) · [医疗器械](/query/medical-device) · [消协 315 扫码辨商品](/query/cca-315) · [消费品召回](/query/recall) · [企业信用](/query/enterprise-credit) · [12315 投诉举报](/query/samr-12315) · [投诉渠道全景](/query/complaint-channels) · [更多核验（发票/手机/理财/快递）](/query/more-verify)
-
-**就医用药**：[机构与医师](/query/hospital-doctor) · [医保定点](/query/yibao) · [医保药品目录](/query/yibao-drug)
-
-**反诈与维权**：[全家反诈体检](/query/anti-fraud) · [12315 投诉举报](/query/samr-12315) · [投诉渠道全景](/query/complaint-channels) · [企业信用](/query/enterprise-credit)
-
-**考证与学历**：[证书查询（国家目录核对）](/query/cert-search) · [健康考证骗局拆解](/query/health-cert-scam) · [技能补贴申领](/query/skill-subsidy) · [学信网学历核验](/query/education-verify)
-
-**税与劳动**：[个税退税与专项附加扣除](/query/tax-refund) · [劳动维权（欠薪/仲裁）](/query/labor-rights)
-
-**家庭办事**：[宝宝出生 30 天清单](/family/baby-checklist) · [养老金身故权益](/social/pension-after-death)
-
-**家庭与出行**：[养老地图](/query/elder-care) · [健身一张图](/query/fitness-map) · [导游/旅行社核验](/query/tour-guide) · [空气与水质](/query/environment)
-
-完整导航见[官方查询 · 按生活场景](/query/)。
-| [食品生产许可 SC 查询](/query/sc-food) | 市场监管总局 |
-| [医保定点机构查询](/query/yibao) | 国家医疗保障局 |
-
-## 站上工具
-
-- [**官方怎么说检索**](/find)：关键词定位语料片段与出处（一级/二级来源可过滤）
-- [**家庭管家**](/assist)：勾选家庭情况，组装对应指南与关键数字（规则化、带出处）
-- [**AI 语料 JSON**](https://yshuai.github.io/SageRelay/corpus.json)：全站内容结构化接口 · [RSS 订阅](https://yshuai.github.io/SageRelay/rss.xml)
-
-## 权威数据页
-
-| 数据页 | 来源 |
+| 工具 | 用途 |
 | --- | --- |
-| [营养与慢性病状况报告（2020）核心数据](/data/chronic-disease-report-2020) | 国家卫生健康委（国新办发布） |
-| [中国人群身体活动指南（2021）分人群推荐量](/data/physical-activity-2021) | 中国疾控中心 + 国家体育总局体科所 |
-| [健康中国行动 · 15 个行动总览](/data/healthy-china-action) | 健康中国行动推进委员会（含[生活方式](/data/hc-action-lifestyle)、[重点人群](/data/hc-action-people)、[疾病防治](/data/hc-action-disease)三页展开） |
-| [各地最低工资标准（截至2026-01-01）](/data/minimum-wage-2026) | 人力资源社会保障部（含最低社保缴费基数口径） |
-| [官方公共数据库导航 · 家庭实用版](/data/official-databases) | 全国人大 / 最高法 / 发改委 / 统计局 / 气象局等 |
+| [官方怎么说检索](/find) | 关键词定位全站内容片段（可按来源级别过滤） |
+| [家庭管家](/assist) | 勾选家庭情况 → 组装对应指南包与防坑清单 |
+| [AI 语料 JSON](https://yshuai.github.io/SageRelay/corpus.json) · [RSS](https://yshuai.github.io/SageRelay/rss.xml) | 机器可读接口与订阅 |
+| [校验看板](/verify) | 人工核验进度（每篇"已核验"状态一览） |
 
-## 当前收录（19 篇词条）
+## 举一个用法
 
-**成人慢病食养指南**（国家卫生健康委办公厅，均为现行）：
+家里老人刚查出高血压：打开[高血压词条](/guides/hypertension-2023)看速览卡（盐 <5g、补钾、运动量）→ 按"买/做/吃/动/测"清单调整厨房 → 顺手给爸妈手机做一次[反诈体检](/query/anti-fraud) → 需要报销报销、补贴补贴时去[官方查询](/query/)找对应入口。
 
-| 词条 | 版本 | 状态 |
-| --- | --- | --- |
-| [成人高血压食养指南](/guides/hypertension-2023) | 2023年版 | 现行 |
-| [成人高脂血症食养指南](/guides/hyperlipidemia-2023) | 2023年版 | 现行 |
-| [成人糖尿病食养指南](/guides/diabetes-2023) | 2023年版 | 现行 |
-| [成人肥胖食养指南](/guides/obesity-2024) | 2024年版 | 现行 |
-| [成人高尿酸血症与痛风食养指南](/guides/gout-2024) | 2024年版 | 现行 |
-| [成人慢性肾脏病食养指南](/guides/ckd-2024) | 2024年版 | 现行 |
-| [成人脑卒中食养指南](/guides/stroke-2026) | 2026年版 | 现行 |
-| [成人肌少症食养指南](/guides/sarcopenia-2026) | 2026年版 | 现行 |
-| [成人骨质疏松症食养指南](/guides/osteoporosis-2026) | 2026年版 | 现行 |
-
-**儿童青少年**（国家卫生健康委办公厅）：
-
-| 词条 | 版本 | 状态 |
-| --- | --- | --- |
-| [儿童青少年生长迟缓食养指南](/guides/growth-retardation-2023) | 2023年版 | 现行 |
-| [儿童青少年肥胖食养指南](/guides/child-obesity-2024) | 2024年版 | 现行 |
-| [学生餐营养指南](/guides/student-meals-2017) | WS/T 554—2017 | 现行 |
-
-**诊疗与体重管理**（国家卫生健康委办公厅）：
-
-| 词条 | 版本 | 状态 |
-| --- | --- | --- |
-| [肥胖症诊疗指南](/guides/obesity-clinical-2024) | 2024年版 | 现行 |
-| [体重管理指导原则](/guides/weight-management-2024) | 2024年版 | 现行 |
-
-**营养健康环境**（国家卫生健康委办公厅）：
-
-| 词条 | 版本 | 状态 |
-| --- | --- | --- |
-| [餐饮食品营养标识指南](/guides/nutrition-labeling-2020) | 2020年印发 | 现行 |
-| [营养健康食堂建设指南](/guides/canteen-guide-2020) | 2020年印发 | 现行 |
-| [营养健康餐厅建设指南](/guides/restaurant-guide-2020) | 2020年印发 | 现行 |
-| [营养指导员服务技术指南（试行）](/guides/nutrition-instructor-2026) | 试行 | 现行 |
-
-**总纲**：
-
-| 词条 | 来源 | 状态 |
-| --- | --- | --- |
-| [中国居民膳食指南（2022）](/guides/dietary-guidelines-2022) | 中国营养学会（二级来源） | 现行 |
-
-- 只给白纸黑字：原文引用 + 发文字号 + 原文链接，可核对。
-- 导读只是地图：说明"适合谁、关键是什么"，不新增医学论断。
-- 版本受控：新版发布后旧版归档并注明替代关系，永不静默过期。
-
-想了解收录标准与免责声明，见[关于本站](/about)。
+想看收录标准、白名单与完整免责声明，见[关于本站](/about)。
