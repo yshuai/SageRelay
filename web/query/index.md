@@ -46,6 +46,7 @@ titleTemplate: false
 | 投诉举报与处理进度 | [全国 12315 平台](/query/samr-12315) |
 | 投诉渠道怎么选（官方矩阵+黑猫等市场化平台） | [投诉举报渠道全景](/query/complaint-channels) |
 | 发票/手机/理财/快递核验 | [更多官方核验工具](/query/more-verify) |
+| 全家反诈体检（APP/96110/一证通查） | [反诈专题](/query/anti-fraud) |
 | 投诉举报与处理进度 | [全国 12315 平台](/query/samr-12315) |
 
 ## 🏥 就医用药
