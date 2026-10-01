@@ -167,6 +167,13 @@ export default defineConfig({
           ],
         },
         {
+          text: '税 & 劳动',
+          items: [
+            { text: '个税退税与专项附加扣除', link: '/query/tax-refund' },
+            { text: '劳动维权（欠薪/仲裁）', link: '/query/labor-rights' },
+          ],
+        },
+        {
           text: '维权 & 信用',
           items: [
             { text: '全家反诈体检', link: '/query/anti-fraud' },

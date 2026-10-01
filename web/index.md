@@ -29,6 +29,8 @@ titleTemplate: false
 
 **考证与学历**：[证书查询（国家目录核对）](/query/cert-search) · [健康考证骗局拆解](/query/health-cert-scam) · [技能补贴申领](/query/skill-subsidy) · [学信网学历核验](/query/education-verify)
 
+**税与劳动**：[个税退税与专项附加扣除](/query/tax-refund) · [劳动维权（欠薪/仲裁）](/query/labor-rights)
+
 **家庭办事**：[宝宝出生 30 天清单](/family/baby-checklist) · [养老金身故权益](/social/pension-after-death)
 
 **家庭与出行**：[养老地图](/query/elder-care) · [健身一张图](/query/fitness-map) · [导游/旅行社核验](/query/tour-guide) · [空气与水质](/query/environment)

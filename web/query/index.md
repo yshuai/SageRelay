@@ -16,6 +16,13 @@ titleTemplate: false
 | 考出目录内证书可领政府补贴 | [技能提升补贴申领](/query/skill-subsidy) |
 | 文凭查真伪、防野鸡大学 | [学历学籍查询（学信网）](/query/education-verify) |
 
+## 💰 税与劳动
+
+| 查什么 | 入口页 |
+| --- | --- |
+| 退税季该做什么（七项扣除别漏填） | [个税退税与专项附加扣除](/query/tax-refund) |
+| 被欠薪、被辞退的维权路径 | [劳动维权](/query/labor-rights) |
+
 ## 🏦 社保公积金
 
 | 查什么 | 入口页 |

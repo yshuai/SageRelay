@@ -152,6 +152,8 @@ const skills = [
 | 医保能不能报（定点/目录） | [医保定点](/query/yibao) · [医保药品目录](/query/yibao-drug) |
 | 给爸妈找养老机构 | [养老地图](/query/elder-care) |
 | 父母的养老金与认证 | [养老金身故权益](/social/pension-after-death) · [国家社保平台](/query/si-12333) |
+| 退税季该抵的税 | [个税退税与专项附加扣除](/query/tax-refund) |
+| 家里有人被欠薪/被辞退 | [劳动维权](/query/labor-rights) |
 
 ::: tip 数据背景
 为什么这些数字值得认真对待：[慢性病报告核心数据](/data/chronic-disease-report-2020)——每 3 个成人约 1 个高血压，每 2 个成人约 1 个体重超标。
