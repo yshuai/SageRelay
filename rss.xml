@@ -396,6 +396,16 @@
     </item>
 
     <item>
+      <title>买药防坑 · 药品比价与追溯码</title>
+      <link>https://yshuai.github.io/SageRelay/query/drug-price.html</link>
+      <guid>https://yshuai.github.io/SageRelay/query/drug-price.html</guid>
+      <description>买药两把官方尺子：医保药品比价（同药不同店价差可查）与药品追溯码扫码（防"回流药"），附集采、网售药避坑要点。</description>
+      <category>query</category>
+      <category>一级来源</category>
+      <pubDate>Invalid Date</pubDate>
+    </item>
+
+    <item>
       <title>药品批准文号查询 · 识别假药</title>
       <link>https://yshuai.github.io/SageRelay/query/drug.html</link>
       <guid>https://yshuai.github.io/SageRelay/query/drug.html</guid>
@@ -626,6 +636,16 @@
     </item>
 
     <item>
+      <title>交管 12123 · 违章/驾照/车辆检验一站办</title>
+      <link>https://yshuai.github.io/SageRelay/query/traffic-12123.html</link>
+      <guid>https://yshuai.github.io/SageRelay/query/traffic-12123.html</guid>
+      <description>交管 12123 官方教程：违章查询处理、驾照期满换证、车辆检验预约、电子驾照；网约车合规与二手车查封风险提示。</description>
+      <category>query</category>
+      <category>一级来源</category>
+      <pubDate>Invalid Date</pubDate>
+    </item>
+
+    <item>
       <title>医保药品目录查询 · 这个药能不能报</title>
       <link>https://yshuai.github.io/SageRelay/query/yibao-drug.html</link>
       <guid>https://yshuai.github.io/SageRelay/query/yibao-drug.html</guid>
@@ -663,6 +683,16 @@
       <category>family</category>
       <category>一级来源</category>
       <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>宝宝疫苗指南 · 程序表、接种记录与两个极端</title>
+      <link>https://yshuai.github.io/SageRelay/family/vaccine.html</link>
+      <guid>https://yshuai.github.io/SageRelay/family/vaccine.html</guid>
+      <description>宝宝疫苗指南：国家免疫规划程序速览、接种证与记录查询、自费疫苗的知情选择、两个极端误区。</description>
+      <category>family</category>
+      <category>一级来源</category>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 GMT</pubDate>
     </item>
   </channel>
 </rss>

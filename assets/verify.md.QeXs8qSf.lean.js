@@ -1,1 +1,0 @@
-import{_ as d,o as e,c as r,ag as a}from"./chunks/framework.BjY7aUvS.js";const i=JSON.parse('{"title":"校验看板（构建时自动生成）","description":"","frontmatter":{},"headers":[],"relativePath":"verify.md","filePath":"verify.md"}'),o={name:"verify.md"};function c(h,t,l,n,s,f){return e(),r("div",null,[...t[0]||(t[0]=[a("",5)])])}const w=d(o,[["render",c]]);export{i as __pageData,w as default};
