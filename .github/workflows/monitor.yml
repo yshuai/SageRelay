@@ -1,0 +1,33 @@
+name: Monitor official sources
+
+# 每日北京时间 07:00 检查疾控技术指南栏目；发现新文章自动开 issue 提醒。
+# 补充机制说明见 scripts/monitor.mjs（半年人工核查之外的第一道自动化防线）。
+on:
+  schedule:
+    - cron: '0 23 * * *' # UTC 23:00 = 北京 07:00
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Check for updates
+        run: node scripts/monitor.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CI: 'true'
+      - name: Commit snapshot
+        run: |
+          git config user.name "sagerelay-bot"
+          git config user.email "13953723+yshuai@users.noreply.github.com"
+          git add monitor/known.json
+          git diff --cached --quiet || git commit -m "monitor: update snapshot [skip ci]"
+          git push
