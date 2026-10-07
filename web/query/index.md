@@ -34,6 +34,7 @@ titleTemplate: false
 | 查什么 | 入口页 |
 | --- | --- |
 | 养老金身故后的继承与遗属待遇（家庭 tips） | [养老金身故后怎么办](/social/pension-after-death) |
+| 宝宝疫苗程序表与接种记录 | [宝宝疫苗指南](/family/vaccine) |
 | 缴费权益、养老金测算、待遇资格认证 | [国家社保平台查询](/query/si-12333) |
 | 公积金余额、提取与继承 | [公积金查询](/query/housing-fund) |
 
@@ -45,6 +46,7 @@ titleTemplate: false
 | 农产品/婴幼儿配方乳粉的履历 | [溯源码查询](/query/traceability) |
 | 工厂有生产许可吗 | [食品生产许可 SC 查询](/query/sc-food) |
 | 药品是真的吗 | [药品批准文号查询](/query/drug) |
+| 买药比价、防回流药 | [买药防坑 · 药品比价与追溯码](/query/drug-price) |
 | 保健食品有蓝帽子吗 | [保健食品注册备案查询](/query/health-food) |
 
 ## 🛒 买得明白
@@ -77,11 +79,12 @@ titleTemplate: false
 | 身边的养老机构/助餐点 | [养老机构查询（养老地图）](/query/elder-care) |
 | 老人用品防骗 | [保健食品查询](/query/health-food) + [医疗器械查询](/query/medical-device) |
 
-## 🏃 动与游
+## 🚗 出行与车辆
 
 | 查什么 | 入口页 |
 | --- | --- |
-| 身边的场馆、器材、体育公园 | [健身一张图](/query/fitness-map) |
+| 违章/驾照/车辆检验 | [交管 12123](/query/traffic-12123) |
+| 身边场馆/教练资质 | [健身一张图](/query/fitness-map) |
 | 导游证/旅行社资质 | [导游与旅行社核验](/query/tour-guide) |
 
 ## 🌳 环境与健康防护

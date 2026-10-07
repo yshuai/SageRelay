@@ -121,6 +121,7 @@ export default defineConfig({
           text: '家庭办事',
           items: [
             { text: '宝宝出生 30 天办事清单', link: '/family/baby-checklist' },
+            { text: '宝宝疫苗指南', link: '/family/vaccine' },
           ],
         },
       ],
@@ -168,6 +169,7 @@ export default defineConfig({
             { text: '保健食品注册备案查询', link: '/query/health-food' },
             { text: '药品批准文号查询', link: '/query/drug' },
             { text: '更多核验：发票/手机/理财/快递', link: '/query/more-verify' },
+            { text: '买药防坑：比价与追溯码', link: '/query/drug-price' },
           ],
         },
         {
@@ -194,6 +196,7 @@ export default defineConfig({
             { text: '医疗机构与执业医师查询', link: '/query/hospital-doctor' },
             { text: '医保定点机构查询', link: '/query/yibao' },
             { text: '医保药品目录查询', link: '/query/yibao-drug' },
+            { text: '交管 12123（违章/驾照/检验）', link: '/query/traffic-12123' },
             { text: '养老机构查询（养老地图）', link: '/query/elder-care' },
             { text: '健身一张图', link: '/query/fitness-map' },
             { text: '导游与旅行社核验', link: '/query/tour-guide' },

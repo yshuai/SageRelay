@@ -157,6 +157,8 @@ const skills = [
 | --- | --- |
 | 新去看的医院或"专家" | [医疗机构与执业医师查询](/query/hospital-doctor) |
 | 医保能不能报（定点/目录） | [医保定点](/query/yibao) · [医保药品目录](/query/yibao-drug) |
+| 买药贵了？怕回流药 | [买药防坑 · 药品比价与追溯码](/query/drug-price) |
+| 宝宝疫苗怎么打、漏了怎么补 | [宝宝疫苗指南](/family/vaccine) |
 | 给爸妈找养老机构 | [养老地图](/query/elder-care) |
 | 父母的养老金与认证 | [养老金身故权益](/social/pension-after-death) · [国家社保平台](/query/si-12333) |
 | 退税季该抵的税 | [个税退税与专项附加扣除](/query/tax-refund) |

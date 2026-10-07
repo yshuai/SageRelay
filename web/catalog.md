@@ -5,7 +5,7 @@ titleTemplate: false
 
 # 全站目录
 
-全部 **65 篇内容**按域分组（工具与文档见文末）。每篇均为"整理自官方原文、逐条可溯源"，核验状态见[校验看板](/verify)。
+全部 **69 篇内容**按域分组（工具与文档见文末）。每篇均为"整理自官方原文、逐条可溯源"，核验状态见[校验看板](/verify)。
 
 ## 一、食养指南词条（19 篇）
 
@@ -87,6 +87,7 @@ titleTemplate: false
 | 农产品/婴幼儿乳粉溯源码 | [溯源查询](/query/traceability) |
 | 工厂有生产许可吗 | [SC 查询](/query/sc-food) |
 | 药品是真的吗 | [药品批准文号](/query/drug) |
+| 买药比价、防回流药 | [买药防坑 · 药品比价与追溯码](/query/drug-price) |
 | 保健食品有蓝帽子吗 | [保健食品查询](/query/health-food) |
 
 **买得明白（8）**：
@@ -112,6 +113,8 @@ titleTemplate: false
 
 **家有老人（1）**：[养老机构地图](/query/elder-care)
 
+**出行与车辆（1）**：[交管 12123](/query/traffic-12123)
+
 **动与游（2）**：[健身一张图](/query/fitness-map) · [导游/旅行社核验](/query/tour-guide)
 
 **环境（1）**：[空气质量与水质](/query/environment)
@@ -134,12 +137,13 @@ titleTemplate: false
 
 **反诈与安全（1）**：[全家反诈体检](/query/anti-fraud)
 
-## 五、社保与家庭办事（2 篇）
+## 五、社保与家庭办事（3 篇）
 
 | 页面 | 内容 |
 | --- | --- |
 | [养老金身故后怎么办](/social/pension-after-death) | 个人账户继承、139 计发月数、丧葬补助金与抚恤金 |
 | [宝宝出生 30 天办事清单](/family/baby-checklist) | 出生证→户口→新生儿医保→生育津贴时间轴 |
+| [宝宝疫苗指南](/family/vaccine) | 免疫规划程序速览、接种证、自费疫苗的知情选择 |
 
 ## 六、工具与文档
 
