@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T12:46:16.741Z",
+  "generatedAt": "2026-10-07T11:23:28.341Z",
   "site": "建议驿站 SageRelay",
   "disclaimer": "所有内容整理自官方文件原文、逐条可溯源；不构成诊疗建议，与医生治疗方案冲突时以医嘱为准。AI 使用本语料时不得生成无出处的新结论。",
   "whitelist": {
@@ -790,6 +790,27 @@
     },
     {
       "type": "query",
+      "slug": "daily-tools",
+      "title": "延伸工具站导航 · 官方优先，境外补充",
+      "issuer": "混合来源（官方平台 + 境外工具站，见 ADR 0019）",
+      "source_tier": "混合（官方 + 显式例外）",
+      "version": "—",
+      "published": "—",
+      "source_url": "https://www.piyao.org.cn/",
+      "status": "现行服务",
+      "reviewed": false,
+      "tags": [
+        "工具站",
+        "健身",
+        "营养",
+        "辟谣",
+        "实用网站"
+      ],
+      "description": "家庭实用工具站合集：辟谣平台/科普中国/天气网等官方阵营 + MuscleWiki 等境外工具站（显式例外收录），每条注明与官方内容的配对。",
+      "body": "\n# 延伸工具站导航 · 官方优先，境外补充\n\n::: warning 收录说明\n本页包含**两类**工具站：**官方阵营**（白名单内，一级来源）与**境外/市场化延伸**（[ADR 0019](/project/adr/0019-tool-sites.md) 显式例外：免费核心、无佣金无利益关联、非官方背书、可随时下架）。境外工具的数据标准（如美国 USDA）**不等于中国官方推荐量**，膳食与运动决策以本站官方内容为准。\n:::\n\n## 官方阵营（一级来源）\n\n| 工具站 | 查什么 | 入口 |\n| --- | --- | --- |\n| **中国互联网联合辟谣平台**（网信办） | 谣言查证——家庭群里转来的\"震惊体\"先来这查 | [piyao.org.cn](https://www.piyao.org.cn/)（已核验） |\n| **科普中国**（中国科协） | 权威科普内容库（健康、食品安全、应急等） | [kepuchina.cn](https://www.kepuchina.cn/)（已核验） |\n| **中国天气网**（中国气象局） | 官方天气预报与预警（比商业 App 少广告） | [weather.com.cn](https://www.weather.com.cn/)（已核验） |\n| **国家智慧教育公共服务平台**（教育部） | **免费**中小学课程资源、职业教育、老年教育 | [smartedu.cn](https://www.smartedu.cn/)（已核验） |\n| **国家图书馆** | 读者注册后免费使用数字图书、期刊、古籍资源 | [nlc.cn](https://www.nlc.cn/)（已核验） |\n\n## 延伸阵营（境外工具站 · ADR 0019 例外）\n\n| 工具站 | 查什么 | 入口与提示 |\n| --- | --- | --- |\n| **MuscleWiki** | 按肌群点选 → 对应训练动作视频（中文界面），健身\"看图点菜\" | [musclewiki.com](https://musclewiki.com/)（已核验，境外加载稍慢） |\n| **USDA FoodData Central** | 美国农业部食物营养数据库——查某种食物的热量/营养素明细 | [fdc.nal.usda.gov](https://fdc.nal.usda.gov/)（境外站点加载较慢，英文） |\n| **NutritionFacts.org** | 非营利营养研究科普（按食物/健康话题检索文献综述） | [nutritionfacts.org](https://nutritionfacts.org/)（境外较慢，英文） |\n\n**配对使用原则**（官方优先）：\n\n- 练什么、练多少 → 以[身体活动指南推荐量](/data/physical-activity-2021)和[健身一张图](/query/fitness-map)为准；**具体动作怎么标准地做** → MuscleWiki 补细节。\n- 吃多少、怎么搭配 → 以[膳食指南](/guides/dietary-guidelines-2022)和对应[食养指南](/guides/hypertension-2023)为准；**某种食物的营养细节** → USDA 数据库补查询（美国数据，参考用）。\n- 补剂、某种食物的\"功效\"传言 → 先查[辟谣平台](https://www.piyao.org.cn/)，再看 nutritionfacts 的文献综述。\n\n## 相关页面\n\n- 健身设施：[健身一张图](/query/fitness-map) · 饮食总纲：[膳食指南](/guides/dietary-guidelines-2022) · 谣言治理：[投诉渠道全景](/query/complaint-channels)\n\n## 溯源\n\n| 字段 | 内容 |\n| --- | --- |\n| 官方阵营 | 网信办、中国科协、中国气象局、教育部、国家图书馆（一级来源，均已核验） |\n| 延伸阵营 | MuscleWiki、USDA、NutritionFacts.org——ADR 0019 显式例外，无佣金无利益关联 |\n"
+    },
+    {
+      "type": "query",
       "slug": "drug",
       "title": "药品批准文号查询 · 识别假药",
       "issuer": "国家药品监督管理局",
@@ -1026,7 +1047,7 @@
       "reviewed": false,
       "tags": [],
       "description": "",
-      "body": "\n# 官方查询导航 · 按生活场景\n\n本站已收录的官方查询服务，按**家庭生活场景**分组（不做代查、不缓存结果，只教怎么用官方入口——见 [ADR 0014](/project/adr/0014-query-pages)、[ADR 0015](/project/adr/0015-query-scenes)）。所有入口均标注来源级别；入口改版以各部委官网为准。\n\n## 🎓 考证与学历\n\n| 查什么 | 入口页 |\n| --- | --- |\n| 考来的证是真的吗（国家目录核对） | [考证防坑 · 证书查询](/query/cert-search) |\n| 健康管理师/公共营养师营销拆解 | [健康考证骗局拆解](/query/health-cert-scam) |\n| 考出目录内证书可领政府补贴 | [技能提升补贴申领](/query/skill-subsidy) |\n| 文凭查真伪、防野鸡大学 | [学历学籍查询（学信网）](/query/education-verify) |\n\n## 💰 税与劳动\n\n| 查什么 | 入口页 |\n| --- | --- |\n| 退税季该做什么（七项扣除别漏填） | [个税退税与专项附加扣除](/query/tax-refund) |\n| 被欠薪、被辞退的维权路径 | [劳动维权](/query/labor-rights) |\n\n## 🏦 社保公积金\n\n| 查什么 | 入口页 |\n| --- | --- |\n| 养老金身故后的继承与遗属待遇（家庭 tips） | [养老金身故后怎么办](/social/pension-after-death) |\n| 缴费权益、养老金测算、待遇资格认证 | [国家社保平台查询](/query/si-12333) |\n| 公积金余额、提取与继承 | [公积金查询](/query/housing-fund) |\n\n## 🍽️ 吃得放心\n\n| 查什么 | 入口页 |\n| --- | --- |\n| 食品被抽检通报过吗 | [食品抽检结果查询（食安查）](/query/food-spot-check) |\n| 农产品/婴幼儿配方乳粉的履历 | [溯源码查询](/query/traceability) |\n| 工厂有生产许可吗 | [食品生产许可 SC 查询](/query/sc-food) |\n| 药品是真的吗 | [药品批准文号查询](/query/drug) |\n| 保健食品有蓝帽子吗 | [保健食品注册备案查询](/query/health-food) |\n\n## 🛒 买得明白\n\n| 查什么 | 入口页 |\n| --- | --- |\n| 化妆品备案/注册（含监管 APP、小程序多入口） | [化妆品查询](/query/cosmetics) |\n| 血压计血糖仪等有注册证吗 | [医疗器械查询](/query/medical-device) |\n| 条码与登记信息一致吗 | [消协智慧 315 · 扫码辨商品](/query/cca-315) |\n| 家里东西被召回了吗 | [消费品召回查询](/query/recall) |\n| 商家有没有处罚/异常记录（失信企业） | [企业信用查询](/query/enterprise-credit) |\n| 投诉举报与处理进度 | [全国 12315 平台](/query/samr-12315) |\n| 投诉渠道怎么选（官方矩阵+黑猫等市场化平台） | [投诉举报渠道全景](/query/complaint-channels) |\n| 发票/手机/理财/快递核验 | [更多官方核验工具](/query/more-verify) |\n| 全家反诈体检（APP/96110/一证通查） | [反诈专题](/query/anti-fraud) |\n| 投诉举报与处理进度 | [全国 12315 平台](/query/samr-12315) |\n\n## 🏥 就医用药\n\n| 查什么 | 入口页 |\n| --- | --- |\n| 医院/医生资质（含辅助生殖等专项） | [医疗机构与执业医师查询](/query/hospital-doctor) |\n| 这家医院/药店能报销吗 | [医保定点机构查询](/query/yibao) |\n| 这个药能报吗（甲类/乙类） | [医保药品目录查询](/query/yibao-drug) |\n\n## 🧓 家有老人\n\n| 查什么 | 入口页 |\n| --- | --- |\n| 身边的养老机构/助餐点 | [养老机构查询（养老地图）](/query/elder-care) |\n| 老人用品防骗 | [保健食品查询](/query/health-food) + [医疗器械查询](/query/medical-device) |\n\n## 🏃 动与游\n\n| 查什么 | 入口页 |\n| --- | --- |\n| 身边的场馆、器材、体育公园 | [健身一张图](/query/fitness-map) |\n| 导游证/旅行社资质 | [导游与旅行社核验](/query/tour-guide) |\n\n## 🌳 环境与健康防护\n\n| 查什么 | 入口页 |\n| --- | --- |\n| 城市 AQI、国控地表水水质 | [空气质量与水质查询](/query/environment) |\n\n::: tip 后续批次候选\n充电桩随手查（e 路畅通）、法律服务地图（12348）、公共文化云、博物馆地图等已列入候选池，按需分批收录（见 ADR 0015）。\n:::\n"
+      "body": "\n# 官方查询导航 · 按生活场景\n\n本站已收录的官方查询服务与延伸工具站，按**家庭生活场景**分组（不做代查、不缓存结果，只教怎么用官方入口——见 [ADR 0014](/project/adr/0014-query-pages)、[ADR 0019](/project/adr/0019-tool-sites.md)）。所有入口均标注来源级别；入口改版以各部委官网为准。\n\n## 🧰 延伸工具站\n\n| 用途 | 入口页 |\n| --- | --- |\n| 辟谣/科普/天气/免费网课/数字图书馆 + MuscleWiki 等健身营养工具 | [实用工具站导航](/query/daily-tools) |\n\n## 🎓 考证与学历\n\n| 查什么 | 入口页 |\n| --- | --- |\n| 考来的证是真的吗（国家目录核对） | [考证防坑 · 证书查询](/query/cert-search) |\n| 健康管理师/公共营养师营销拆解 | [健康考证骗局拆解](/query/health-cert-scam) |\n| 考出目录内证书可领政府补贴 | [技能提升补贴申领](/query/skill-subsidy) |\n| 文凭查真伪、防野鸡大学 | [学历学籍查询（学信网）](/query/education-verify) |\n\n## 💰 税与劳动\n\n| 查什么 | 入口页 |\n| --- | --- |\n| 退税季该做什么（七项扣除别漏填） | [个税退税与专项附加扣除](/query/tax-refund) |\n| 被欠薪、被辞退的维权路径 | [劳动维权](/query/labor-rights) |\n\n## 🏦 社保公积金\n\n| 查什么 | 入口页 |\n| --- | --- |\n| 养老金身故后的继承与遗属待遇（家庭 tips） | [养老金身故后怎么办](/social/pension-after-death) |\n| 缴费权益、养老金测算、待遇资格认证 | [国家社保平台查询](/query/si-12333) |\n| 公积金余额、提取与继承 | [公积金查询](/query/housing-fund) |\n\n## 🍽️ 吃得放心\n\n| 查什么 | 入口页 |\n| --- | --- |\n| 食品被抽检通报过吗 | [食品抽检结果查询（食安查）](/query/food-spot-check) |\n| 农产品/婴幼儿配方乳粉的履历 | [溯源码查询](/query/traceability) |\n| 工厂有生产许可吗 | [食品生产许可 SC 查询](/query/sc-food) |\n| 药品是真的吗 | [药品批准文号查询](/query/drug) |\n| 保健食品有蓝帽子吗 | [保健食品注册备案查询](/query/health-food) |\n\n## 🛒 买得明白\n\n| 查什么 | 入口页 |\n| --- | --- |\n| 化妆品备案/注册（含监管 APP、小程序多入口） | [化妆品查询](/query/cosmetics) |\n| 血压计血糖仪等有注册证吗 | [医疗器械查询](/query/medical-device) |\n| 条码与登记信息一致吗 | [消协智慧 315 · 扫码辨商品](/query/cca-315) |\n| 家里东西被召回了吗 | [消费品召回查询](/query/recall) |\n| 商家有没有处罚/异常记录（失信企业） | [企业信用查询](/query/enterprise-credit) |\n| 投诉举报与处理进度 | [全国 12315 平台](/query/samr-12315) |\n| 投诉渠道怎么选（官方矩阵+黑猫等市场化平台） | [投诉举报渠道全景](/query/complaint-channels) |\n| 发票/手机/理财/快递核验 | [更多官方核验工具](/query/more-verify) |\n| 全家反诈体检（APP/96110/一证通查） | [反诈专题](/query/anti-fraud) |\n| 投诉举报与处理进度 | [全国 12315 平台](/query/samr-12315) |\n\n## 🏥 就医用药\n\n| 查什么 | 入口页 |\n| --- | --- |\n| 医院/医生资质（含辅助生殖等专项） | [医疗机构与执业医师查询](/query/hospital-doctor) |\n| 这家医院/药店能报销吗 | [医保定点机构查询](/query/yibao) |\n| 这个药能报吗（甲类/乙类） | [医保药品目录查询](/query/yibao-drug) |\n\n## 🧓 家有老人\n\n| 查什么 | 入口页 |\n| --- | --- |\n| 身边的养老机构/助餐点 | [养老机构查询（养老地图）](/query/elder-care) |\n| 老人用品防骗 | [保健食品查询](/query/health-food) + [医疗器械查询](/query/medical-device) |\n\n## 🏃 动与游\n\n| 查什么 | 入口页 |\n| --- | --- |\n| 身边的场馆、器材、体育公园 | [健身一张图](/query/fitness-map) |\n| 导游证/旅行社资质 | [导游与旅行社核验](/query/tour-guide) |\n\n## 🌳 环境与健康防护\n\n| 查什么 | 入口页 |\n| --- | --- |\n| 城市 AQI、国控地表水水质 | [空气质量与水质查询](/query/environment) |\n\n::: tip 后续批次候选\n充电桩随手查（e 路畅通）、法律服务地图（12348）、公共文化云、博物馆地图等已列入候选池，按需分批收录（见 ADR 0015）。\n:::\n"
     },
     {
       "type": "query",
