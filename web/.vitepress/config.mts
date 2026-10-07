@@ -216,6 +216,7 @@ export default defineConfig({
     docFooter: { prev: '上一篇', next: '下一篇' },
     returnToTopLabel: '回到顶部',
     sidebarMenuLabel: '目录',
+    darkModeSwitchLabel: '主题',
     footer: {
       message: '本站为非官方科普项目，内容以权威原文为准，不构成诊疗建议',
       copyright:

@@ -28,6 +28,7 @@ titleTemplate: false
 | --- | --- |
 | [官方怎么说检索](/find) | 关键词定位全站内容片段（可按来源级别过滤） |
 | [家庭管家](/assist) | 勾选家庭情况 → 组装对应指南包与防坑清单 |
+| [离线版速查](/offline/) | **单文件、断网可读**——微信发给爸妈存手机里 |
 | [AI 语料 JSON](https://yshuai.github.io/SageRelay/corpus.json) · [RSS](https://yshuai.github.io/SageRelay/rss.xml) | 机器可读接口与订阅 |
 | [校验看板](/verify) | 人工核验进度（每篇"已核验"状态一览） |
 

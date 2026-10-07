@@ -147,6 +147,7 @@ titleTemplate: false
 | --- | --- |
 | [官方怎么说检索](/find) | 关键词定位语料片段（可按来源级别过滤） |
 | [家庭管家](/assist) | 勾选家庭情况，组装指南包与查一查清单 |
+| [离线版速查](/offline/) | 单文件 HTML，断网可读，适合转发给爸妈 |
 | [校验看板](/verify) | 人工核验进度（构建时自动生成） |
 | [AI 语料 JSON](https://yshuai.github.io/SageRelay/corpus.json) / [RSS](https://yshuai.github.io/SageRelay/rss.xml) | 机器可读接口 |
 | [关于本站](/about) | 定位、白名单、免责与授权 |
