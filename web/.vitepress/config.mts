@@ -134,6 +134,10 @@ export default defineConfig({
       ],
       '/query/': [
         {
+          text: '延伸工具站',
+          items: [{ text: '实用工具站导航（官方+境外）', link: '/query/daily-tools' }],
+        },
+        {
           text: '场景导航',
           items: [{ text: '官方查询导航 · 按生活场景', link: '/query/' }],
         },

@@ -143,6 +143,7 @@ const skills = [
 | 被健康考证营销盯上了 | [健康考证骗局拆解](/query/health-cert-scam) |
 | 考出目录内证书可领补贴 | [技能提升补贴申领](/query/skill-subsidy) |
 | 文凭查真伪 | [学历学籍查询（学信网）](/query/education-verify) |
+| 健身动作怎么标准地练 | [延伸工具站（MuscleWiki）](/query/daily-tools) |
 
 **医 & 老 & 钱**：
 

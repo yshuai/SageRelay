@@ -70,5 +70,9 @@
   {
     "slug": "0018-market-complaint-platforms",
     "title": "白名单例外：市场化投诉平台的显式标注收录"
+  },
+  {
+    "slug": "0019-tool-sites",
+    "title": "白名单例外第二类：实用工具站导航（MuscleWiki 等）"
   }
 ]

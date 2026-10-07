@@ -386,6 +386,16 @@
     </item>
 
     <item>
+      <title>延伸工具站导航 · 官方优先，境外补充</title>
+      <link>https://yshuai.github.io/SageRelay/query/daily-tools.html</link>
+      <guid>https://yshuai.github.io/SageRelay/query/daily-tools.html</guid>
+      <description>家庭实用工具站合集：辟谣平台/科普中国/天气网等官方阵营 + MuscleWiki 等境外工具站（显式例外收录），每条注明与官方内容的配对。</description>
+      <category>query</category>
+      <category>混合（官方 + 显式例外）</category>
+      <pubDate>Invalid Date</pubDate>
+    </item>
+
+    <item>
       <title>药品批准文号查询 · 识别假药</title>
       <link>https://yshuai.github.io/SageRelay/query/drug.html</link>
       <guid>https://yshuai.github.io/SageRelay/query/drug.html</guid>

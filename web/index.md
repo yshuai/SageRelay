@@ -18,6 +18,7 @@ titleTemplate: false
 | **📏 国标科普**（6 篇） | 看懂营养成分表与配料表（GB 28050/GB 7718），含 2027 新版变化预告 | [GB 28050 营养标签](/standards/gb28050-nutrition-label) · [新旧对比](/standards/gb28050-2025-preview) |
 | **🔍 官方查询**（28 篇 + 导航） | 化妆品/药品/器械/保健食品验真、机构医师、医保、企业信用与召回、考证学历、反诈 | [场景导航](/query/) · [反诈体检](/query/anti-fraud) |
 | **🏦 办事与权益**（2 篇） | 养老金身故权益、宝宝出生 30 天办事清单 | [养老金怎么办](/social/pension-after-death) · [宝宝清单](/family/baby-checklist) |
+| **🧰 延伸工具站**（1 页 8 站） | 辟谣/科普/天气/免费网课/数字图书馆 + MuscleWiki 等境外健身营养工具 | [实用工具站导航](/query/daily-tools) |
 
 **📄 [全站目录](/catalog)** —— 65 篇内容一页看完。
 
